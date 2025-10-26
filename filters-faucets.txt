@@ -155,15 +155,8 @@ bitfaucet.net##.row:has([action*="/faucet/verify"]), .row:has(#minute):style(jus
 bitfaucet.net##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; let clickedCaptcha = false; let clickedSubmit = false; let skipForever = false; const shouldSkip = () => { if (skipForever) return true; const swalTitle = document.querySelector(".swal2-title"); if (swalTitle && /failed/i.test(swalTitle.textContent)) { skipForever = true; return true; } const swalContent = document.querySelector(".swal2-content"); if (swalContent && swalContent.textContent.trim() === "Shortlink must be completed to continue again") { skipForever = true; return true; } return false; }; const checkCaptcha = () => { if (shouldSkip()) return; if (clickedCaptcha) return; const promptElement = document.querySelector(".captcha-prompt"); if (!promptElement) return; const prompCaptcha = promptElement.textContent.split(":")[1].trim().toLowerCase(); const icon = Array.from(document.querySelectorAll(".captcha-item")).find(icon => icon.getAttribute("data-icon").split(".")[0].toLowerCase() === prompCaptcha ); if (icon) { clickedCaptcha = true; setTimeout(() => { icon.click(); }\, 1000); } }; const checkVerification = () => { if (shouldSkip()) return; if (clickedSubmit) return; const validFeedback = document.querySelector(".captcha-feedback.valid"); if (validFeedback && validFeedback.textContent.includes("Verification successful!")) { const submitBtn = document.querySelector(".sl_btn"); if (submitBtn) { clickedSubmit = true; setTimeout(() => { submitBtn.click(); }\, 2000); } } }; const observer = new MutationObserver(() => { if (shouldSkip()) return; checkCaptcha(); checkVerification(); }); observer.observe(document.body\, { childList: true\, subtree: true }); })();'></img>)
 
 !FREELTC.FUN
-freeltc.fun##ins, div[style]:has(#banner-container)
-freeltc.fun##+js(no-fetch-if, surfe.pro/js/net.js, ,'{"type": "opaque"}'))
-freeltc.fun##+js(aeld, load, parentDiv)
-freeltc.fun##+js(rpnt, script, myWindow.closed == true, false, condition, closed)
-freeltc.fun##+js(rpnt, script, document.hasFocus(), false, condition, closed)
-freeltc.fun##+js(rpnt, script, typeof myWindow == 'undefined' || myWindow == null, false)
-freeltc.fun##+js(set, document.hasFocus, trueFunc)
-freeltc.fun##+js(set, document.hidden, true)
-freeltc.fun##+js(nowoif, , , obj)
+freeltc.fun##ins, div[style]:has(#banner-container), .ads, #fauform > iframe
+freeltc.fun##.row:has(#subbutt):style(display: flex; justify-content: center)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=freeltc.fun
 
 !OFFERWALL
