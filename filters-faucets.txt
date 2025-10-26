@@ -57,9 +57,10 @@ $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=earn-trump.com
 
 !EARN-BONK
 !https://github.com/Suurp/FiltersUBO/issues/4
-earn-bonk.com##[style*="overflow:hidden"]:not(:has(#loginBtnText)), #loginForm > .text-center:has(iframe), .text-center:has(> ins), .ads:has(> ins)
-earn-bonk.com##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
-earn-bonk.com##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
+earn-bonk.com##+js(noeval-if, /chp_?ad/)
+earn-bonk.com##+js(acs, document.createElement, /cdn.bmcdn6.com|ins/)
+earn-bonk.com##[style*="overflow:hidden"]:not(:has(#loginBtnText)), #loginForm > .text-center:has(iframe), .text-center:has(> ins), .glass:has(ins, iframe)
+earn-bonk.com##+js(set, document.hidden, true)
 earn-bonk.com##+js(nowoif, , obj)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=earn-bonk.com
 
