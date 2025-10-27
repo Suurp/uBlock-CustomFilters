@@ -192,3 +192,16 @@ hotfaucet.in##+js(set, navigator.brave, undefined)
 hotfaucet.in##+js(acs, document.createElement, /cdn.bmcdn6.com|cleverwebserver.com/)
 hotfaucet.in##+js(set, document.hasFocus, trueFunc)
 hotfaucet.in##+js(rpnt, script, var url, var none)
+
+!CRYPTOCOLLECT.IN
+cryptocollect.in#@#center:has(iframe)
+cryptocollect.in##+js(nowoif, , obj)
+cryptocollect.in##+js(set, document.hidden, true)
+cryptocollect.in##+js(nano-sib, runCountdown, , 0.002)
+cryptocollect.in##center:has(iframe):not(:has(#slidecaptcha)), div:has(> [id^="ads-surfvisits"]), .row:has([id*="ADBits.online"]), .ads
+cryptocollect.in##+js(rmnt, script, /adblockDetected|TestAd|adbnrefresh|checkAds/i)
+cryptocollect.in##+js(acs, oncontextmenu)
+cryptocollect.in##+js(aeld, contextmenu)
+cryptocollect.in##+js(acs, keydown)
+||cryptocollect.in/redirect/*$urlskip=/(aHR0c[^?#]+)/ -base64
+||surfvisits.com^$domain=cryptocollect.in
