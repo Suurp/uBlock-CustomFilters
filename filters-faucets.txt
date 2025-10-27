@@ -182,3 +182,13 @@ claimcrypto.cc##+js(rpnt, script, document.hasFocus(), false, condition, .view_a
 claimcrypto.cc##+js(window-close-if, /sview/)
 claimcrypto.cc###clickOnceLink:remove-attr(href)
 $3p,frame,denyallow=cloudflare.com|bitcotasks.com|offerwall.me,redirect=noopframe,domain=claimcrypto.cc
+
+!HOTFAUCET.IN
+@@*$ghide,domain=hotfaucet.in
+$3p,frame,denyallow=cloudflare.com|recaptcha.net,redirect=noopframe,domain=hotfaucet.in
+hotfaucet.in##+js(rmnt, script, /detectAdblock|devtools.php/i)
+hotfaucet.in##.ads, div:has(> span[onclick]), ins
+hotfaucet.in##+js(set, navigator.brave, undefined)
+hotfaucet.in##+js(acs, document.createElement, /cdn.bmcdn6.com|cleverwebserver.com/)
+hotfaucet.in##+js(set, document.hasFocus, trueFunc)
+hotfaucet.in##+js(rpnt, script, var url, var none)
