@@ -194,6 +194,8 @@ hotfaucet.in##+js(set, document.hasFocus, trueFunc)
 hotfaucet.in##+js(rpnt, script, var url, var none)
 
 !CRYPTOCOLLECT.IN
+@@*$ghide,domain=cryptocollect.in
+$3p,frame,denyallow=cloudflare.com|recaptcha.net,redirect=noopframe,domain=cryptocollect.in
 cryptocollect.in#@#center:has(iframe)
 cryptocollect.in##+js(nowoif, , obj)
 cryptocollect.in##+js(set, document.hidden, true)
