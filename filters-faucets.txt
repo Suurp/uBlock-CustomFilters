@@ -256,3 +256,15 @@ bitupdate.info##+js(set, document.hasFocus, trueFunc)
 bitupdate.info##+js(acs, document.createElement, cdn.bmcdn6.com)
 bitupdate.info##.row:has([action*="faucet/verify"]):style(justify-content: center;)
 bitupdate.info##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; window.addEventListener("load"\, function() { const atbInstruction = document.querySelector("#atb-instruction"); const antibotLinks = document.querySelectorAll(".antibotlinks"); if (atbInstruction) { const nextAtb = atbInstruction.parentElement.querySelector("#atb-instruction ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const antibotReset = document.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (antibotReset) { const nextAtb = antibotReset.parentElement.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const firstAtb = document.querySelector(".atb"); if (firstAtb) { antibotLinks.forEach(el => firstAtb.appendChild(el)); } } } }); })();;'></img>)
+
+!FREESOLANA.TOP
+$3p,frame,denyallow=cloudflare.com|youtube.com,redirect=noopframe,domain=freesolana.top
+freesolana.top##.ads, ins, [id^="wcfloatDiv"]
+freesolana.top##+js(acs, document.createElement, cdn.bmcdn6.com)
+freesolana.top##+js(nowoif, , obj)
+freesolana.top##+js(rpnt, script, var url, var bypass)
+freesolana.top##+js(set, document.hasFocus, trueFunc)
+freesolana.top##[class^="col"]:has(> .atb):style(width: 100% !important)
+freesolana.top##+js(nano-sib, .claim-button, 1000, 0.002)
+freesolana.top##.row:has(#spin-button, [action*="faucet/verify"]):style(justify-content: center;)
+freesolana.top##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; window.addEventListener("load"\, function() { const atbInstruction = document.querySelector("#atb-instruction"); const antibotLinks = document.querySelectorAll(".antibotlinks"); if (atbInstruction) { const nextAtb = atbInstruction.parentElement.querySelector("#atb-instruction ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const antibotReset = document.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (antibotReset) { const nextAtb = antibotReset.parentElement.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const firstAtb = document.querySelector(".atb"); if (firstAtb) { antibotLinks.forEach(el => firstAtb.appendChild(el)); } } } }); })();;'></img>)
