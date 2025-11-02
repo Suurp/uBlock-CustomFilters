@@ -268,3 +268,15 @@ freesolana.top##[class^="col"]:has(> .atb):style(width: 100% !important)
 freesolana.top##+js(nano-sib, .claim-button, 1000, 0.002)
 freesolana.top##.row:has(#spin-button, [action*="faucet/verify"]):style(justify-content: center;)
 freesolana.top##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; window.addEventListener("load"\, function() { const atbInstruction = document.querySelector("#atb-instruction"); const antibotLinks = document.querySelectorAll(".antibotlinks"); if (atbInstruction) { const nextAtb = atbInstruction.parentElement.querySelector("#atb-instruction ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const antibotReset = document.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (antibotReset) { const nextAtb = antibotReset.parentElement.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const firstAtb = document.querySelector(".atb"); if (firstAtb) { antibotLinks.forEach(el => firstAtb.appendChild(el)); } } } }); })();;'></img>)
+
+!HATECOIN.ME
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=hatecoin.me
+hatecoin.me##+js(noeval-if, /chp_?ad/)
+hatecoin.me##.card:has(#multiside), ads, ins
+hatecoin.me##+js(nano-sib, .claim-button, 1000, 0.002)
+hatecoin.me##.row:has(#spin-button, [action*="faucet/verify"]):style(justify-content: center;)
+hatecoin.me##+js(acs, document.createElement, cdn.bmcdn6.com)
+hatecoin.me##+js(nowoif, , obj)
+hatecoin.me##+js(rpnt, script, var url, var bypass)
+hatecoin.me##+js(set, document.hasFocus, trueFunc)
+hatecoin.me##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; window.addEventListener("load"\, function() { const atbInstruction = document.querySelector("#atb-instruction"); const antibotLinks = document.querySelectorAll(".antibotlinks"); if (atbInstruction) { const nextAtb = atbInstruction.parentElement.querySelector("#atb-instruction ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const antibotReset = document.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (antibotReset) { const nextAtb = antibotReset.parentElement.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const firstAtb = document.querySelector(".atb"); if (firstAtb) { antibotLinks.forEach(el => firstAtb.appendChild(el)); } } } }); })();;'></img>)
