@@ -222,3 +222,27 @@ ad-doge.com#@#+js(nostif, _0x)
 ad-doge.com##+js(nowoif, , obj)
 ad-doge.com##+js(acs, document.createElement, /cdn.bmcdn6.com|cleverwebserver.com/)
 ad-doge.com##+js(json-prune, records.[].ip)
+
+!EARNBITMOON.CLUB
+$frame,3p,denyallow=cloudflare.com|youtube.com,redirect=noopframe,domain=earnbitmoon.club
+$image,denyallow=earnbitmoon.club|cloudflare.com|chatbro.com,domain=earnbitmoon.club
+||lottie.host$domain=earnbitmoon.club
+||flagcdn.com$domain=earnbitmoon.club
+||earnbitmoon.club/files/logo/*.gif$redirect=32x32.png
+||earnbitmoon.club/static/js/noadblock.js$script,redirect=noop.js
+earnbitmoon.club##ins, [data-target="#modal2my"], [id^="wcfloatDiv"], #sidebar-block:has(#single)
+earnbitmoon.club##+js(acs, document.createElement, cdn.bmcdn6.com)
+earnbitmoon.club##+js(set, window_focus, true)
+earnbitmoon.club##+js(nostif, data.redirect, 1000)
+earnbitmoon.club##+js(nostif, handleRedirect)
+earnbitmoon.club##+js(set, NoAdBlock, noopFunc)
+earnbitmoon.club###modal2my, #claimFaucet:remove-class(/modal|fade|d-none/)
+earnbitmoon.club##+js(nano-stb, , 2500, 0.02)
+earnbitmoon.club##+js(nano-stb, data.message, 2000, 0.02)
+earnbitmoon.club##+js(nano-stb, showadbar, *, 0.10)
+earnbitmoon.club##+js(rmnt, script, loadLivebar)
+earnbitmoon.club##+js(rpnt, script, enableInitialMessage: true, enableInitialMessage: false)
+earnbitmoon.club##+js(rpnt, script, loadingAnimationDelay: 1000, loadingAnimationDelay: 0)
+earnbitmoon.club##+js(rpnt, script, selectionResetDelay: 3000, selectionResetDelay: 0)
+earnbitmoon.club##+js(rpnt, script, initializeDelay: 500, initializeDelay: 0)
+earnbitmoon.club##+js(rpnt, script, clickDelay: 500, clickDelay: 0)
