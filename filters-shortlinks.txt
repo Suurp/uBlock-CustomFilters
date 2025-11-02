@@ -201,8 +201,7 @@ coinhub.wiki,vitalityvista.net,geekgrove.net##+js(trusted-set, document.activeEl
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, document.hasFocus, falseFunc)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, window.google_tag_manager, {})
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nowoif)
-coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nostif, onerror)
-coinhub.wiki,vitalityvista.net,geekgrove.net##+js(rmnt, script, window.location.reload)
+coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, HTMLScriptElement.prototype.onerror, undefined)
 ||/assets/images$image,redirect=32x32.png,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
 ||a-ads.com^$frame,redirect-rule=noopframe,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
 ||adskeeper.com^$image,redirect-rule=2x2.png,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
