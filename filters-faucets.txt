@@ -280,3 +280,11 @@ hatecoin.me##+js(nowoif, , obj)
 hatecoin.me##+js(rpnt, script, var url, var bypass)
 hatecoin.me##+js(set, document.hasFocus, trueFunc)
 hatecoin.me##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; window.addEventListener("load"\, function() { const atbInstruction = document.querySelector("#atb-instruction"); const antibotLinks = document.querySelectorAll(".antibotlinks"); if (atbInstruction) { const nextAtb = atbInstruction.parentElement.querySelector("#atb-instruction ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const antibotReset = document.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (antibotReset) { const nextAtb = antibotReset.parentElement.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const firstAtb = document.querySelector(".atb"); if (firstAtb) { antibotLinks.forEach(el => firstAtb.appendChild(el)); } } } }); })();;'></img>)
+
+!ZOOMFAUCET.COM
+zoomfaucet.com##.ad-container, .layout-top-spacing:not(:has([onclick]))
+zoomfaucet.com##+js(nowoif, !bitcotasks.com, obj)
+zoomfaucet.com##+js(rpnt, script, document.hasFocus(), false, condition, myWindow)
+zoomfaucet.com##+js(set, document.hasFocus, trueFunc)
+zoomfaucet.com##+js(nano-sib, .claim-button, 1000, 0.002)
+zoomfaucet.com##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; window.addEventListener("load"\, function() { const atbInstruction = document.querySelector("#atb-instruction"); const antibotLinks = document.querySelectorAll(".antibotlinks"); if (atbInstruction) { const nextAtb = atbInstruction.parentElement.querySelector("#atb-instruction ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const antibotReset = document.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (antibotReset) { const nextAtb = antibotReset.parentElement.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const firstAtb = document.querySelector(".atb"); if (firstAtb) { antibotLinks.forEach(el => firstAtb.appendChild(el)); } } } }); })();;'></img>)
