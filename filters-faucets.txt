@@ -246,3 +246,13 @@ earnbitmoon.club##+js(rpnt, script, loadingAnimationDelay: 1000, loadingAnimatio
 earnbitmoon.club##+js(rpnt, script, selectionResetDelay: 3000, selectionResetDelay: 0)
 earnbitmoon.club##+js(rpnt, script, initializeDelay: 500, initializeDelay: 0)
 earnbitmoon.club##+js(rpnt, script, clickDelay: 500, clickDelay: 0)
+
+!BITUPDATE.INFO
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=bitupdate.info
+bitupdate.info##+js(noeval-if, /chp_?ad/)
+bitupdate.info##.ads, ins
+bitupdate.info##+js(rpnt, script, var url, var bypass)
+bitupdate.info##+js(set, document.hasFocus, trueFunc)
+bitupdate.info##+js(acs, document.createElement, cdn.bmcdn6.com)
+bitupdate.info##.row:has([action*="faucet/verify"]):style(justify-content: center;)
+bitupdate.info##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; window.addEventListener("load"\, function() { const atbInstruction = document.querySelector("#atb-instruction"); const antibotLinks = document.querySelectorAll(".antibotlinks"); if (atbInstruction) { const nextAtb = atbInstruction.parentElement.querySelector("#atb-instruction ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const antibotReset = document.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (antibotReset) { const nextAtb = antibotReset.parentElement.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const firstAtb = document.querySelector(".atb"); if (firstAtb) { antibotLinks.forEach(el => firstAtb.appendChild(el)); } } } }); })();;'></img>)
