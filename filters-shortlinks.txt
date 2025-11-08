@@ -337,3 +337,23 @@ upexamresult.in,naukaritimes24.in,udarunachal.in##+js(nano-stb, , *, 0.02)
 upexamresult.in,naukaritimes24.in,udarunachal.in##+js(cookie-remover, iotes)
 upexamresult.in,naukaritimes24.in,udarunachal.in##+js(trusted-click-element, #btn7, , 1000)
 upexamresult.in,naukaritimes24.in,udarunachal.in##+js(trusted-click-element, #cross-snp2, , 1000)
+
+!WLINKUS
+adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info#@##wpsafe-link:style(display: block !important;)
+bitcrypto.info,sportweb.info,mgame.info##+js(rpnt, script, random < 5, false)
+bitcrypto.info,sportweb.info,mgame.info##+js(nowoif, !safelink_redirect)
+bitcrypto.info,sportweb.info,mgame.info##.wpsafe-top, #wpsafegenerate:others()
+bitcrypto.info,sportweb.info,mgame.info##+js(aost, document.onkeydown)
+bitcrypto.info,sportweb.info,mgame.info##+js(aost, document.contextmenu)
+bitcrypto.info,sportweb.info,mgame.info##+js(set, window.devtools.isOpen, false)
+bitcrypto.info,sportweb.info,mgame.info##+js(aeld, /devtoolschange|keydown|contextmenu/)
+bitcrypto.info,sportweb.info,mgame.info##+js(abort-current-inline-script, setInterval, outerWidth)
+bitcrypto.info,sportweb.info,mgame.info##+js(abort-current-inline-script, setInterval, console.log)
+bitcrypto.info,sportweb.info,mgame.info##+js(rpnt, script, "'IFRAME'", "'BODY'")
+bitcrypto.info,sportweb.info,mgame.info##+js(nano-sib, /wpsafe-link|wpsafe-wait2/, *, 0.10)
+||cdn.jsdelivr.net/gh/choipanwendy/*/adblock.js$script,redirect=noopjs,domain=bitcrypto.info|sportweb.info|mgame.info
+||quiziizz.github.io/adblock.js$script,redirect=noopjs,domain=bitcrypto.info|sportweb.info|mgame.info
+||lycoslink.github.io/new/amp-ad.js$script,redirect=noopjs,domain=bitcrypto.info|sportweb.info|mgame.info
+
+wlink.us##.box-main > .row > :not(.button-container), b:has(.text-left), .box-main > .random-article-section, .adslr
+wlink.us##+js(nowoif)
