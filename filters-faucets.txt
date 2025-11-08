@@ -288,3 +288,12 @@ zoomfaucet.com##+js(rpnt, script, document.hasFocus(), false, condition, myWindo
 zoomfaucet.com##+js(set, document.hasFocus, trueFunc)
 zoomfaucet.com##+js(nano-sib, .claim-button, 1000, 0.002)
 zoomfaucet.com##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; window.addEventListener("load"\, function() { const atbInstruction = document.querySelector("#atb-instruction"); const antibotLinks = document.querySelectorAll(".antibotlinks"); if (atbInstruction) { const nextAtb = atbInstruction.parentElement.querySelector("#atb-instruction ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const antibotReset = document.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (antibotReset) { const nextAtb = antibotReset.parentElement.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const firstAtb = document.querySelector(".atb"); if (firstAtb) { antibotLinks.forEach(el => firstAtb.appendChild(el)); } } } }); })();;'></img>)
+
+!CRYPTOADS.IN
+cryptoads.in##.ads
+cryptoads.in##.row:has(#fauform, .wait-box):style(justify-content: center)
+cryptoads.in##+js(set, window.onClickReady, true)
+cryptoads.in##+js(rpnt, script, /!window.onClickReady \|\| typeof window.showOnClick !== "function"|adType === "gigapub"/gm, false)
+cryptoads.in##+js(rpnt, script, window.showOnClick(), Promise.resolve())
+||gigapub.tech$script,redirect=noopjs,domain=cryptoads.in
+||onclckvd.com$domain=cryptoads.in
