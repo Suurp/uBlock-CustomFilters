@@ -329,14 +329,16 @@ virtuous-tech.net##+js(set, document.hidden, true)
 ||about:$popup,domain=virtuous-tech.net
 
 !AROLINKS
-upexamresult.in,naukaritimes24.in,udarunachal.in###stick, [id^="btn"], #cross-snp2:others()
-upexamresult.in,naukaritimes24.in,udarunachal.in###stick, [id^="btn"], #cross-snp2:style(display: block !important)
-upexamresult.in,naukaritimes24.in,udarunachal.in##+js(rpnt, script, "'IFRAME'", "'BODY'")
-upexamresult.in,naukaritimes24.in,udarunachal.in##+js(nano-sib, timer, *, 0.02)
-upexamresult.in,naukaritimes24.in,udarunachal.in##+js(nano-stb, , *, 0.02)
-upexamresult.in,naukaritimes24.in,udarunachal.in##+js(cookie-remover, iotes)
-upexamresult.in,naukaritimes24.in,udarunachal.in##+js(trusted-click-element, #btn7, , 1000)
-upexamresult.in,naukaritimes24.in,udarunachal.in##+js(trusted-click-element, #cross-snp2, , 1000)
+krishitalk.com,studygovtjobportal.com,realmeguru.com,upexamresult.in,naukaritimes24.in,udarunachal.in###stick, [id^="btn"], #cross-snp2:others()
+krishitalk.com,studygovtjobportal.com,realmeguru.com,upexamresult.in,naukaritimes24.in,udarunachal.in###stick, [id^="btn"], #cross-snp2:style(display: block !important)
+krishitalk.com,studygovtjobportal.com,realmeguru.com,upexamresult.in,naukaritimes24.in,udarunachal.in##+js(rpnt, script, "'IFRAME'", "'BODY'")
+krishitalk.com,studygovtjobportal.com,realmeguru.com,upexamresult.in,naukaritimes24.in,udarunachal.in##+js(nano-sib, timer, *, 0.02)
+krishitalk.com,studygovtjobportal.com,realmeguru.com,upexamresult.in,naukaritimes24.in,udarunachal.in##+js(nano-stb, , *, 0.02)
+krishitalk.com,studygovtjobportal.com,realmeguru.com,upexamresult.in,naukaritimes24.in,udarunachal.in##+js(cookie-remover, iotes)
+krishitalk.com,studygovtjobportal.com,realmeguru.com,upexamresult.in,naukaritimes24.in,udarunachal.in##+js(trusted-click-element, '10000, button#cross-snp2', 15000)
+krishitalk.com,studygovtjobportal.com,realmeguru.com,upexamresult.in,naukaritimes24.in,udarunachal.in##+js(trusted-click-element, '1000, #btn7', 15000)
+
+arolinks.com##+js(set, blurred, false)
 
 !WLINKUS
 adcrypto.net,admediaflex.com,aduzz.com,bitcrypto.info,cdrab.com,datacheap.io,hbz.us,savego.org,owsafe.com,sportweb.info#@##wpsafe-link:style(display: block !important;)
