@@ -218,6 +218,7 @@ fastcoins.click##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(f
 
 !AD-DOGE.COM    
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=ad-doge.com
+||ad-doge.com/assets/*.gif$redirect=1x1.gif
 ad-doge.com#@#+js(nostif, _0x)
 ad-doge.com##+js(nowoif, , obj)
 ad-doge.com##+js(acs, document.createElement, /cdn.bmcdn6.com|cleverwebserver.com/)
