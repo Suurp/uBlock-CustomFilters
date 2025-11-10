@@ -357,3 +357,19 @@ bitcrypto.info,sportweb.info,mgame.info##+js(nano-sib, /wpsafe-link|wpsafe-wait2
 
 wlink.us##.box-main > .row > :not(.button-container), b:has(.text-left), .box-main > .random-article-section, .adslr
 wlink.us##+js(nowoif)
+
+!LINKPAY 
+thetrendverse.in,redfea.com,travel.redfea.com,vbnmx.online,metavise.in##+js(noeval-if, /chp_?ad/)
+thetrendverse.in,redfea.com,travel.redfea.com,vbnmx.online,metavise.in###wpsafe-generate, #step-header, #rtg-btn:others()
+thetrendverse.in,redfea.com,travel.redfea.com,vbnmx.online,metavise.in###wpsafe-generate, #rtg-btn:style(display: block !important)
+
+!EZ4SHORT.COM
+ez4short.com##.box-main  a[href][target="_blank"], .box-main p, div:has(> .faq)
+ez4short.com##+js(set, blurred, false)
+ez4short.com##.row:has(.link_ready):style(display: block !important)
+
+!GPLINK
+pubgmobile.cloud,mahabhulekh.onl,techimkv.com##center:others()
+pubgmobile.cloud,mahabhulekh.onl,techimkv.com##+js(trusted-set, document.activeElement, '{ "value": {"tagName": "IFRAME", "id": "google" }}', runAt, 3)
+pubgmobile.cloud,mahabhulekh.onl,techimkv.com##+js(set, document.hidden, false)
+pubgmobile.cloud,mahabhulekh.onl,techimkv.com##+js(trusted-click-element, '31000, .VerifyBtn, 100, .exclude-pop.NextBtn, 33000')
