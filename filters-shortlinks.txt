@@ -375,3 +375,14 @@ pubgmobile.cloud,mahabhulekh.onl,techimkv.com##center:others()
 pubgmobile.cloud,mahabhulekh.onl,techimkv.com##+js(trusted-set, document.activeElement, '{ "value": {"tagName": "IFRAME", "id": "google" }}', runAt, 3)
 pubgmobile.cloud,mahabhulekh.onl,techimkv.com##+js(set, document.hidden, false)
 pubgmobile.cloud,mahabhulekh.onl,techimkv.com##+js(trusted-click-element, '31000, .VerifyBtn, 100, .exclude-pop.NextBtn, 33000')
+
+!OII.IO
+oii.io##.text-left
+oii.io###cf-section:style(display: block !important)
+
+aknewz.xyz###step, #next, #scroll, #glink, #countdown, #surl, #ctext, .btn-danger.btn, .cf-turnstile:others()
+aknewz.xyz##form:has(#glink):style(display: flex; justify-content: center)
+aknewz.xyz##+js(set, document.hidden, false)
+aknewz.xyz##+js(set, document.hasFocus, trueFunc)
+aknewz.xyz##+js(aeld, blur)
+aknewz.xyz##+js(alert-buster)
