@@ -401,3 +401,9 @@ aknewz.xyz##+js(set, document.hidden, false)
 aknewz.xyz##+js(set, document.hasFocus, trueFunc)
 aknewz.xyz##+js(aeld, blur)
 aknewz.xyz##+js(alert-buster)
+
+!RSSHORT 
+emailnator.org,emailnator.io,10minmail.io,mytempsms.org###redirect-link, form:has(#ciphertext), #click:others()
+emailnator.org,emailnator.io,10minmail.io,mytempsms.org##+js(set, document.hasFocus, trueFunc)
+emailnator.org,emailnator.io,10minmail.io,mytempsms.org##+js(trusted-replace-outbound-text, decodeURIComponent, Math.random() <= 0.1, false)
+emailnator.org,emailnator.io,10minmail.io,mytempsms.org##+js(trusted-replace-outbound-text, decodeURIComponent, event.isTrusted, true)
