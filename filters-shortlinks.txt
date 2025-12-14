@@ -215,6 +215,7 @@ coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, window.google_tag_manager
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nowoif)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, HTMLScriptElement.prototype.onerror, undefined)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(trusted-set-attr, #adclk, value, 3)
+||revbid.net^$script,redirect=noopjs,domain=coinhub.wiki|vitalityvista.net|geekgrove.net
 ||/assets/images$image,redirect=32x32.png,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
 ||a-ads.com^$frame,redirect-rule=noopframe,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
 ||adskeeper.com^$image,redirect-rule=2x2.png,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
