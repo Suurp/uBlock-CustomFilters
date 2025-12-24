@@ -301,3 +301,13 @@ cryptoads.in##+js(rpnt, script, /!window.onClickReady \|\| typeof window.showOnC
 cryptoads.in##+js(rpnt, script, window.showOnClick(), Promise.resolve())
 ||gigapub.tech$script,redirect=noopjs,domain=cryptoads.in
 ||onclckvd.com$domain=cryptoads.in
+
+!CLAIMCRYPTO.IN
+claimcrypto.in##.ads
+claimcrypto.in##.login-dark:style(margin-top: 0px !important;)
+claimcrypto.in##.row:has(form[action$="faucet/verify"]):style(justify-content: center !important)
+claimcrypto.in##+js(nano-sib, .claim-button, 1000, 0.001)
+claimcrypto.in##+js(nowoif, , *, obj)
+claimcrypto.in##+js(set, document.hasFocus, trueFunc)
+claimcrypto.in##+js(rpnt, script, /:\s*(\d+)\,/gm, : 0\,)
+$3p,frame,denyallow=cloudflare.com|bitcotasks.com|youtube.com,redirect=noopframe,domain=claimcrypto.in
