@@ -410,3 +410,6 @@ emailnator.org,emailnator.io,10minmail.io,mytempsms.org###redirect-link, form:ha
 emailnator.org,emailnator.io,10minmail.io,mytempsms.org##+js(set, document.hasFocus, trueFunc)
 emailnator.org,emailnator.io,10minmail.io,mytempsms.org##+js(trusted-replace-outbound-text, decodeURIComponent, Math.random() <= 0.1, false)
 emailnator.org,emailnator.io,10minmail.io,mytempsms.org##+js(trusted-replace-outbound-text, decodeURIComponent, event.isTrusted, true)
+emailnator.org,emailnator.io,10minmail.io,mytempsms.org##+js(rmnt, script, popMagic)
+||inmobi.com^$domain=emailnator.org|emailnator.io|10minmail.io|mytempsms.org
+
