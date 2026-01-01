@@ -311,3 +311,7 @@ claimcrypto.in##+js(nowoif, , *, obj)
 claimcrypto.in##+js(set, document.hasFocus, trueFunc)
 claimcrypto.in##+js(rpnt, script, /:\s*(\d+)\,/gm, : 0\,)
 $3p,frame,denyallow=cloudflare.com|bitcotasks.com|youtube.com,redirect=noopframe,domain=claimcrypto.in
+
+!INFOCRYPTOGRATIS
+infocryptogratis.com##+js(no-fetch-if, /outbrain.com|adligature.com|quantserve.com|srvtrck.com|adsbygoogle.js/, , '{"type": "opaque"}')
+infocryptogratis.com##+js(prevent-innerHTML, body)
