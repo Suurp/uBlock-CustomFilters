@@ -412,3 +412,11 @@ emailnator.org,emailnator.io,10minmail.io,mytempsms.org##+js(trusted-replace-out
 emailnator.org,emailnator.io,10minmail.io,mytempsms.org##+js(rmnt, script, popMagic)
 ||inmobi.com^$domain=emailnator.org|emailnator.io|10minmail.io|mytempsms.org
 
+!SOULFAUCET
+soulfaucet.com##+js(no-fetch-if, apstag.js, war:amazon_apstag.js)
+soulfaucet.com##.ad-container
+soulfaucet.com##+js(rpnt, script, const totalClicksRequired = 2;, const totalClicksRequired = 0;)
+soulfaucet.com##+js(nano-sib, countdownInterval, 1000, 0.02)
+
+!PAYCUT.PRO
+paycut.pro,beycoin.xyz,coinads.online##+js(nano-sib, sec, 1000, 0.02)
