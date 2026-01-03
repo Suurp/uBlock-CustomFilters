@@ -218,6 +218,7 @@ coinhub.wiki,vitalityvista.net,geekgrove.net##+js(trusted-set-attr, #adclk, valu
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(rpnt, script, akls = false, akls = true)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(rpnt, script, npls = false, npls = true)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nostif, adskeeper.com)
+coinhub.wiki,vitalityvista.net,geekgrove.net##+js(trusted-set-attr, #lpt, value, 15)
 ||adskeeper.com^$3p,script,redirect=noopjs,domain=coinhub.wiki|vitalityvista.net|geekgrove.net
 ||revbid.net^$script,redirect=noopjs,domain=coinhub.wiki|vitalityvista.net|geekgrove.net
 ||/assets/images$image,redirect=32x32.png,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
