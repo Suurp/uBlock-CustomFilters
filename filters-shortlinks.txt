@@ -24,8 +24,9 @@ fdvzg.world##+js(nowoif, getLink)
 !MARU VIDEOPLAYER
 mail.ru##+js(nowoif, videoplayer)
 
-!OII.LA
-oii.la##+js(set-attr, form[method="post"]:has([name="url"]), action)
+!OII.LA, TPI.LI
+aii.sh,tpi.li,oii.la##+js(set-attr, form[method="post"]:not(#go-link), action, '')
+tii.la,oei.la,iir.la,tvi.la,oii.la,tpi.li,lnbz.la##+js(rpnt, script, "document.body.appendChild(e);", "document.body.appendChild(e); window.location.assign(atob(document.documentElement.innerHTML.match(/aHR0c[^\"]+/g)[0]));")
 
 !KUT.LI
 kut.li##+js(set, blurred, false)
