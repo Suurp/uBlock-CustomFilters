@@ -315,3 +315,13 @@ $3p,frame,denyallow=cloudflare.com|bitcotasks.com|youtube.com,redirect=noopframe
 !INFOCRYPTOGRATIS
 infocryptogratis.com##+js(no-fetch-if, /outbrain.com|adligature.com|quantserve.com|srvtrck.com|adsbygoogle.js/, , '{"type": "opaque"}')
 infocryptogratis.com##+js(prevent-innerHTML, body)
+
+!FAUCETCRYPTO
+||adsgravity.io$domain=faucetcrypto.com
+||advertise.faucetcrypto.com/custom-link/*
+||storage.faucetcrypto.com/banners$image,redirect=1x1.gif
+$frame,3p,denyallow=cloudflare.com|offerwall.me|bitcotasks.com,redirect=noop.html,domain=faucetcrypto.com
+@@||ctengine.io^$xhr,script,3p,domain=faucetcrypto.com
+@@||bmcdn3.com^$xhr,3p,domain=faucetcrypto.com
+faucetcrypto.com##ins, a[href*="advertise.faucetcrypto.com/custom-link/"], div:has(> iframe[id*="ad-iframe"])
+faucetcrypto.com##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='(function() { "use strict"; let detectado = false; Object.defineProperty(document\, "hasFocus"\, { value: () => !detectado\, configurable: true }); const observer = new MutationObserver((_\, obs) => { if (document.body.textContent.includes("Open Website")) { detectado = true; obs.disconnect(); } }); observer.observe(document.documentElement\, { childList: true\, subtree: true }); })();'></img>)
