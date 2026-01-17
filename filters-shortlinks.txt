@@ -267,11 +267,14 @@ shortdl.com##+js(rmnt, script, performance.navigation.type)
 shortdl.com##+js(nowoif, go-popup)
 
 !ISCUT.EU
-gamerev.us##+js(nosiif, , 500)
-gamerev.us##+js(aeld, /contextmenu|keydown|visibilitychange|resize|focus|blur/)
-gamerev.us##[id^="visit-steps"]:others()
-gamerev.us##+js(nano-stb, onDone, *, 0.02)
-gamerev.us##+js(rpnt, script, !Number.isFinite(val) || val !== MATH.ans, false)
+earnpilot.eu,trendzilla.club,gamerev.us##+js(nosiif, , 500)
+earnpilot.eu,trendzilla.club,gamerev.us###proceed-final:others()
+earnpilot.eu,trendzilla.club,gamerev.us##[id^="visit-steps"]:has(#proceed-final), #proceed-final:style(display: block !important)
+earnpilot.eu,trendzilla.club,gamerev.us##+js(nano-stb, onDone, *, 0.02)
+earnpilot.eu,trendzilla.club,gamerev.us##+js(rpnt, script, !Number.isFinite(val) || val !== MATH.ans, false)
+earnpilot.eu,trendzilla.club,gamerev.us##+js(set-constant, window.innerWidth, 1920)
+earnpilot.eu,trendzilla.club,gamerev.us##+js(set-constant, window.innerHeight, 1000)
+earnpilot.eu,trendzilla.club,gamerev.us##+js(aeld, /visibilitychange|keydown|contextmenu|keyup/)
 
 !GPLINK
 techimkv.com##center:others()
