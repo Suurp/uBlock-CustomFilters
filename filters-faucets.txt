@@ -15,7 +15,7 @@
 bitcotasks.com#@#+js(nostif, alert)
 bitcotasks.com#@#+js(nostif, offsetWidth)
 bitcotasks.com#@#+js(no-fetch-if, bmcdn6)
-bitcotasks.com##+js(no-fetch-if, bmcdn6, , '{"type": "opaque"}')
+bitcotasks.com##+js(no-fetch-if, bmcdn6, length:11000, '{"type": "opaque"}')
 bitcotasks.com##+js(nostif, window.location.replace, 1200)
 bitcotasks.com##+js(rpnt, script, /window\.open\(['"]([^'"]+)['"]\);/gm, true, condition, myWindow)
 bitcotasks.com##+js(rpnt, script, myWindow.closed == true || window_focus, false, condition, myWindow)
