@@ -337,3 +337,7 @@ earnbtc.pw##+js(set, document.hidden, true)
 earnbtc.pw##+js(nowoif, !/links/go/, *, obj)
 earnbtc.pw##+js(trusted-replace-argument, .antibotlinks, 0, json:".atb")
 earnbtc.pw##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; window.addEventListener("load"\, function() { const atbInstruction = document.querySelector("#atb-instruction"); const antibotLinks = document.querySelectorAll(".antibotlinks"); if (atbInstruction) { const nextAtb = atbInstruction.parentElement.querySelector("#atb-instruction ~ .ads .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const antibotReset = document.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (antibotReset) { const nextAtb = antibotReset.parentElement.querySelector("p:has(#antibotlinks_reset) ~ .atb"); if (nextAtb) { antibotLinks.forEach(el => nextAtb.appendChild(el)); } } else { const firstAtb = document.querySelector(".atb"); if (firstAtb) { antibotLinks.forEach(el => firstAtb.appendChild(el)); } } } }); })();'></img>)
+
+!COINDOOG
+coindoog.com##+js(noeval-if, /chp_?ad/)
+||rscaptcha.com/ads*$from=coindoog.com
