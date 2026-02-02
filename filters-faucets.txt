@@ -344,7 +344,7 @@ coindoog.com##+js(noeval-if, /chp_?ad/)
 
 !CHILLFAUCET
 chillfaucet.in##+js(no-xhr-if, adsbygoogle.js)
-chillfaucet.in##.text-center:has([for*="aadsstickymifne9ov"]), ins, div[style]:has(#banner-container), div[style]:has([onclick="$(this).parent().fadeOut();"]), .justify-content-center:has(> ins), form[data-id="ajax-form"] > :not(:has(.anti-captcha), :has(button[type="submit"]))
+chillfaucet.in##.text-center:has([for*="aadsstickymifne9ov"]), ins, div[style]:has(#banner-container), div[style]:has([onclick="$(this).parent().fadeOut();"]), .justify-content-center:has(> ins), form[data-id="ajax-form"] > :not(:has(.anti-captcha), :has(button[type="submit"]), :has(input[type="email"]), input[type="email"])
 $3p,frame,denyallow=cloudflare.com|offerzono.com|bitcotasks.com,redirect=noopframe,domain=chillfaucet.in
 
 !OFFERZONO
