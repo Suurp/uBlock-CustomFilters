@@ -341,3 +341,14 @@ earnbtc.pw##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(functi
 !COINDOOG
 coindoog.com##+js(noeval-if, /chp_?ad/)
 ||rscaptcha.com/ads*$from=coindoog.com
+
+!CHILLFAUCET
+chillfaucet.in##+js(no-xhr-if, adsbygoogle.js)
+chillfaucet.in##.text-center:has([for*="aadsstickymifne9ov"]), ins, div[style]:has(#banner-container), div[style]:has([onclick="$(this).parent().fadeOut();"]), .justify-content-center:has(> ins), form[data-id="ajax-form"] > :not(:has(.anti-captcha), :has(button[type="submit"]))
+$3p,frame,denyallow=cloudflare.com|offerzono.com|bitcotasks.com,redirect=noopframe,domain=chillfaucet.in
+
+!OFFERZONO
+offerzono.com##div[style]:has([onclick="$(this).parent().fadeOut();"]), #frame, iframe[src*="zerads.com/ad/ad.php"]
+offerzono.com##+js(nowoif, , *, obj)
+offerzono.com##+js(aost, window.onfocus)
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=offerzono.com
