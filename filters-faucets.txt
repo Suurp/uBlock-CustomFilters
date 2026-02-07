@@ -134,7 +134,6 @@ $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=claimtrx.com
 
 !FIREFAUCET
 firefaucet.win###sad-1, .row.center:has([class*="advert-code"])
-firefaucet.win##+js(nano-sib, refresher, *, 0.02)
 firefaucet.win###captcha-box > #description:style(display: block !important)
 firefaucet.win##+js(set, document.hasFocus, trueFunc)
 firefaucet.win###submit-button:watch-attr(onclick):remove-attr(onclick)
