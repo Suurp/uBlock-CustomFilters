@@ -423,3 +423,8 @@ paycut.pro,beycoin.xyz,coinads.online##+js(nano-sib, sec, 1000, 0.02)
 @@||cuttlinks.com$ghide
 @@||vhit.io/scripts/vhit.js$script,domain=cuttlinks.com
 cuttlinks.com##+js(set, window.ADBLOCK_CONFIG, {})
+
+!BESTPROMPT - GOODPROMPT
+/.*url=([^&]*(bestprompt|goodprompt)\.(online|top)[^&]*)$/$urlskip=/[?&]url=([^&]+)(?!.*[?&]url=)/
+goodprompt.online,bestprompt.online##+js(set, blurred, false)
+goodprompt.online,bestprompt.top,bestprompt.online##.blog-item > .page-header
