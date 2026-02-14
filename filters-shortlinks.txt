@@ -421,3 +421,8 @@ soulfaucet.com##+js(nano-sib, countdownInterval, 1000, 0.02)
 
 !PAYCUT.PRO
 paycut.pro,beycoin.xyz,coinads.online##+js(nano-sib, sec, 1000, 0.02)
+
+!CUTTLINKS
+@@||cuttlinks.com$ghide
+@@||vhit.io/scripts/vhit.js$script,domain=cuttlinks.com
+cuttlinks.com##+js(set, window.ADBLOCK_CONFIG, {})
