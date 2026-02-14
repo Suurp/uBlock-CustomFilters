@@ -63,13 +63,10 @@ get-to.link##+js(aeld, DOMContentLoaded, /overlay|hover-message/)
 
 !FLY.INC - 7MB.IO
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12437078
-khalarkobor.com,4kphotoediting.com##+js(acs, onload, handleFailure)
-khalarkobor.com,4kphotoediting.com##+js(rpnt, script, "'IFRAME'", "'BODY'")
-khalarkobor.com,4kphotoediting.com##+js(rpnt, script, !document.hasFocus(), true)
-khalarkobor.com,4kphotoediting.com##+js(rpnt, script, document.hasFocus() == false, true)
-khalarkobor.com,4kphotoediting.com##+js(set, document.hasFocus, trueFunc)
-khalarkobor.com,4kphotoediting.com##+js(rmnt, script, getStoredTabSwitchTime)
-khalarkobor.com,4kphotoediting.com###click, #redirect-link, [class^="btn-"], #captcha-container, #switchCaptcha, [src*="/recaptcha/"]:others()
+*##+js(trusted-set-attr, a[href*="7mb.io"], rel, noreferrer)
+*##+js(trusted-set-attr, a[href*="rinku.pro"], rel, noreferrer)
+||rinku.pro^$uritransform=/^https?:\/\/rinku\.pro\/([a-zA-Z0-9]+)$/https:\/\/rinku.pro\/flyinc.\/\$1/
+||7mb.io^$uritransform=/^https?:\/\/7mb\.io\/([a-zA-Z0-9]+)$/https:\/\/7mb.io\/flyinc.\/\$1/
 
 !EARNOW - SHORTINO - SHORTANO
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12440365
