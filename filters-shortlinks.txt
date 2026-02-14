@@ -180,20 +180,20 @@ bgmi32bitapk.in###rtg-snp21:remove-class(no_display)
 creditsgoal.com##[id*="Step"], #rtg-snp21:others()
 creditsgoal.com###rtg-snp21:style(display: block !important)
 
-!SHORTHOP - CRYPTO-RADIO
+!SHORTHOP - CRYPTO-RADIO - TINYLINKS
 !https://github.com/uBlockOrigin/uAssets/discussions/27472?sort=new#discussioncomment-12471194
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##.container-fluid .row
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##+js(trusted-replace-argument, document.querySelector, 0, json:"body", condition, .placed-ad)
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##+js(trusted-replace-argument, document.querySelectorAll, 0, json:"body", condition, .placed-ad)
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##+js(trusted-replace-argument, document.querySelector, 0, json:"body", condition, .container-fluid .row)
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##+js(nano-sib, document.hidden, *, 0.02)
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##+js(set, document.hidden, true, runAt, 3)
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##+js(spoof-css, .row, display, block, visibility, visible)
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##+js(no-fetch-if, revbid.js)
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##+js(no-xhr-if, adsbygoogle.js, length:11000)
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##+js(nano-sib, , 2000, 0.02)
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##+js(nano-stb, , *, 0.02)
-mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno##+js(nowoif, , obj)
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##.container-fluid .row
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##+js(trusted-replace-argument, document.querySelector, 0, json:"body", condition, .placed-ad)
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##+js(trusted-replace-argument, document.querySelectorAll, 0, json:"body", condition, .placed-ad)
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##+js(trusted-replace-argument, document.querySelector, 0, json:"body", condition, .container-fluid .row)
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##+js(nano-sib, document.hidden, *, 0.02)
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##+js(set, document.hidden, true, runAt, 3)
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##+js(spoof-css, .row, display, block, visibility, visible)
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##+js(no-fetch-if, revbid.js)
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##+js(no-xhr-if, adsbygoogle.js, length:11000)
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##+js(nano-sib, , 2000, 0.02)
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##+js(nano-stb, , *, 0.02)
+mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno,coderun.uno,nanolink.fun##+js(nowoif, , obj)
 
 !COINCLIX
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-13585108
