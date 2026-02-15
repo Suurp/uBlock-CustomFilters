@@ -420,9 +420,9 @@ soulfaucet.com##+js(nano-sib, countdownInterval, 1000, 0.02)
 paycut.pro,beycoin.xyz,coinads.online##+js(nano-sib, sec, 1000, 0.02)
 
 !CUTTLINKS
-@@||cuttlinks.com$ghide
+@@$ghide,domain=cety.app|cutlink.net|cutnet.net|cuttlinks.com|cutty.app|exe-links.com|exe-urls.com|exego.app|exnion.com|jixo.online
 @@||vhit.io/scripts/vhit.js$script,domain=cety.app|cutlink.net|cutnet.net|cuttlinks.com|cutty.app|exe-links.com|exe-urls.com|exego.app|exnion.com|jixo.online
-cuttlinks.com##+js(set, window.ADBLOCK_CONFIG, {})
+cety.app,cutlink.net,cutnet.net,cuttlinks.com,cutty.app,exe-links.com,exe-urls.com,exego.app,exnion.com,jixo.online#@#+js(set, vhit, {})
 
 !BESTPROMPT - GOODPROMPT
 /.*url=([^&]*(bestprompt|goodprompt)\.(online|top)[^&]*)$/$urlskip=/[?&]url=([^&]+)(?!.*[?&]url=)/
