@@ -428,3 +428,9 @@ cuttlinks.com##+js(set, window.ADBLOCK_CONFIG, {})
 /.*url=([^&]*(bestprompt|goodprompt)\.(online|top)[^&]*)$/$urlskip=/[?&]url=([^&]+)(?!.*[?&]url=)/
 goodprompt.online,bestprompt.online##+js(set, blurred, false)
 goodprompt.online,bestprompt.top,bestprompt.online##.blog-item > .page-header
+
+!SHARECUT
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(no-fetch-if, /test-ipv6.com|ipify.org/)
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(rpnt, script, /const\s+currentIp\s*=\s*["']([0-9a-fA-F.:]+)["'];?/gm)
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(set, document.hasFocus, trueFunc)
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(trusted-create-html, body, <img src='/ndev.png' onerror='const obs = new MutationObserver(() => { const btn = document.querySelector("#delete-session-btn"); if (btn?.offsetParent) btn.click(); }); obs.observe(document.body\, { childList: true\, subtree: true\, attributes: true }); const p = JSON.parse(document.querySelector("astro-island").getAttribute("props")); const d = p.session[1].finalDestination[1]; if (d) window.location.href = d;'></img>)
