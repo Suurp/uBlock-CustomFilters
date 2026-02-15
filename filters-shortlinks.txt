@@ -421,7 +421,7 @@ paycut.pro,beycoin.xyz,coinads.online##+js(nano-sib, sec, 1000, 0.02)
 
 !CUTTLINKS
 @@||cuttlinks.com$ghide
-@@||vhit.io/scripts/vhit.js$script,domain=cuttlinks.com
+||vhit.io/scripts/vhit.js$script,domain=cety.app|cutlink.net|cutnet.net|cuttlinks.com|cutty.app|exe-links.com|exe-urls.com|exego.app|exnion.com|jixo.online
 cuttlinks.com##+js(set, window.ADBLOCK_CONFIG, {})
 
 !BESTPROMPT - GOODPROMPT
