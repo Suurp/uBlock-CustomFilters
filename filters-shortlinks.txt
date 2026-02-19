@@ -419,10 +419,10 @@ soulfaucet.com##+js(nano-sib, countdownInterval, 1000, 0.02)
 !PAYCUT.PRO
 paycut.pro,beycoin.xyz,coinads.online##+js(nano-sib, sec, 1000, 0.02)
 
-!CUTTLINKS
-@@$ghide,domain=cety.app|cutlink.net|cutnet.net|cuttlinks.com|cutty.app|exe-links.com|exe-urls.com|exego.app|exnion.com|jixo.online
-@@||vhit.io/scripts/vhit.js$script,domain=cety.app|cutlink.net|cutnet.net|cuttlinks.com|cutty.app|exe-links.com|exe-urls.com|exego.app|exnion.com|jixo.online
-cety.app,cutlink.net,cutnet.net,cuttlinks.com,cutty.app,exe-links.com,exe-urls.com,exego.app,exnion.com,jixo.online#@#+js(set, vhit, {})
+!CUTY.IO - EXE.IO
+@@$ghide,domain=cety.app|cutlink.net|cutnet.net|cuttlinks.com|cutty.app|exe-links.com|exe-urls.com|exego.app|exeygo.com|exnion.com|jixo.online
+@@||vhit.io/scripts/vhit.js$script,domain=cety.app|cutlink.net|cutnet.net|cuttlinks.com|cutty.app|exe-links.com|exe-urls.com|exego.app|exeygo.com|exnion.com|jixo.online
+cety.app,cutlink.net,cutnet.net,cuttlinks.com,cutty.app,exe-links.com,exe-urls.com,exego.app,exeygo.com,exnion.com,jixo.online#@#+js(set, vhit, {})
 
 !BESTPROMPT - GOODPROMPT
 /.*url=([^&]*(bestprompt|goodprompt)\.(online|top)[^&]*)$/$urlskip=/[?&]url=([^&]+)(?!.*[?&]url=)/
