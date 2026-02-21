@@ -416,7 +416,13 @@ soulfaucet.com##.ad-container
 soulfaucet.com##+js(rpnt, script, const totalClicksRequired = 2;, const totalClicksRequired = 0;)
 soulfaucet.com##+js(nano-sib, countdownInterval, 1000, 0.02)
 
-!PAYCUT.PRO
+!SHARECUT - PAYCUT
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com###verify-button-container, [id^="timer-pos"]:others()
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(aeld, /focus|blur|mouseenter|mouseleave/)
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='const check = () => { const el = document.querySelector("#coffer-image-container\, .verify-image"); if (el && (el.offsetWidth > 0 || el.offsetHeight > 0 || el.getClientRects().length > 0)) { window.appStores.startCofferTimer(); return true; } return false; }; const obs = new MutationObserver(() => { if (check()) obs.disconnect(); }); obs.observe(document.body\, { childList: true\, subtree: true\, attributes: true\, attributeFilter: ["style"\, "class"] }); if (check()) obs.disconnect();'></img>)
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(nano-sib, , /1000|1e3|100/gm, 0.02)
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(no-fetch-if, /test-ipv6.com|ipify.org/)
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(rpnt, script, /const\s+currentIp\s*=\s*["']([0-9a-fA-F.:]+)["'];?/gm)
 paycut.pro,beycoin.xyz,coinads.online##+js(nano-sib, sec, 1000, 0.02)
 
 !CUTTLINKS
@@ -428,9 +434,3 @@ cety.app,cutlink.net,cutnet.net,cuttlinks.com,cutty.app,exe-links.com,exe-urls.c
 /.*url=([^&]*(bestprompt|goodprompt)\.(online|top)[^&]*)$/$urlskip=/[?&]url=([^&]+)(?!.*[?&]url=)/
 goodprompt.online,bestprompt.online##+js(set, blurred, false)
 goodprompt.online,bestprompt.top,bestprompt.online##.blog-item > .page-header
-
-!SHARECUT
-lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(no-fetch-if, /test-ipv6.com|ipify.org/)
-lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(rpnt, script, /const\s+currentIp\s*=\s*["']([0-9a-fA-F.:]+)["'];?/gm)
-lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(set, document.hasFocus, trueFunc)
-lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(trusted-create-html, body, <img src='/ndev.png' onerror='const obs = new MutationObserver(() => { const btn = document.querySelector("#delete-session-btn"); if (btn?.offsetParent) btn.click(); }); obs.observe(document.body\, { childList: true\, subtree: true\, attributes: true }); const p = JSON.parse(document.querySelector("astro-island").getAttribute("props")); const d = p.session[1].finalDestination[1]; if (d) window.location.href = d;'></img>)
