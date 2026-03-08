@@ -422,9 +422,9 @@ soulfaucet.com##+js(rpnt, script, const totalClicksRequired = 2;, const totalCli
 soulfaucet.com##+js(nano-sib, countdownInterval, 1000, 0.02)
 
 !SHARECUT - PAYCUT
-lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com###verify-button-container, [id^="timer-pos"]:others()
 lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(aeld, /focus|blur|mouseenter|mouseleave/)
-lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='const check = () => { const el = document.querySelector("#coffer-image-container\, .verify-image"); if (el && (el.offsetWidth > 0 || el.offsetHeight > 0 || el.getClientRects().length > 0)) { window.appStores.startCofferTimer(); return true; } return false; }; const obs = new MutationObserver(() => { if (check()) obs.disconnect(); }); obs.observe(document.body\, { childList: true\, subtree: true\, attributes: true\, attributeFilter: ["style"\, "class"] }); if (check()) obs.disconnect();'></img>)
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com###verify-button-container, [id^="timer-pos"]:others()
+lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(trusted-create-html, body, <img src='/ndev.png' onerror='const check = () => { const el = document.querySelector("#coffer-image-container\, .verify-image"); if (el && (el.offsetWidth > 0 || el.offsetHeight > 0 || el.getClientRects().length > 0)) { window.appStores.startCofferTimer();return true; } return false; }; const obs = new MutationObserver(() => { if (check()) obs.disconnect(); }); obs.observe(document.body\, { childList: true\, subtree: true\, attributes: true\, attributeFilter: ["style"\, "class"] }); if (check()) obs.disconnect();'>)
 lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(nano-sib, , /1000|1e3|100/gm, 0.02)
 lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(no-fetch-if, /test-ipv6.com|ipify.org/)
 lalaloot.com,cashgrowth.online,webgalatasaray.net,ravellawfirm.com##+js(rpnt, script, /const\s+currentIp\s*=\s*["']([0-9a-fA-F.:]+)["'];?/gm)
