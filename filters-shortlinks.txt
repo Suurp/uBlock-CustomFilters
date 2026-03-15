@@ -439,3 +439,15 @@ cety.app,cutlink.net,cutnet.net,cuttlinks.com,cutty.app,exe-links.com,exe-urls.c
 /.*url=([^&]*(bestprompt|goodprompt)\.(online|top)[^&]*)$/$urlskip=/[?&]url=([^&]+)(?!.*[?&]url=)/
 goodprompt.online,bestprompt.online##+js(set, blurred, false)
 goodprompt.online,bestprompt.top,bestprompt.online##.blog-item > .page-header
+
+!PINGULINK
+visastepguide.com##+js(noeval-if, /chp_?ad/)
+visastepguide.com##.steps, #btnx, #sl-cookie-overlay:others()
+visastepguide.com###btnx, #btn6:style(display: block !important)
+visastepguide.com###btnx:remove-attr(disabled)
+visastepguide.com##+js(nano-stb, timeLeft , 2000, 0.02)
+visastepguide.com##+js(nano-sib, iv, 1000, 0.02)
+
+biofeita.com##+js(nostif, , 1000)
+
+pingulink.com##+js(set, blurred, false)
