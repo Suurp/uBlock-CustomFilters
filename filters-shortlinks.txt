@@ -131,13 +131,14 @@ infonerd.org##+js(set, adClicked, true)
 ||isproxy.eu/adb/jquery*.js$domain=infonerd.org
 
 !VMKEO
-blkeo.com##+js(rpnt, script, ai_block_class_def)
-blkeo.com##span[style*="color:red"], #codexa-snp2, #codexa-snp21:others()
-blkeo.com###codexa-snp2, #codexa-snp21:style(display: block !important)
-blkeo.com##+js(aeld, /contextmenu|keydown|visibilitychange|resize|focus|blur/)
-blkeo.com##+js(nosiif, , 500)
-blkeo.com##+js(acs, document.onkeydown)
-blkeo.com##+js(aeld, DOMContentLoaded, antiAdBlockerHandler)
+jobsdac.site,blkeo.com##.slj-bot, .slv2-container, .slv2-timer-box:remove-class(slv2-hidden)
+jobsdac.site,blkeo.com##+js(acs, document.onkeydown)
+jobsdac.site,blkeo.com##+js(aeld, contextmenu)
+jobsdac.site,blkeo.com##[src*="/recaptcha/"], [class*="progress-text-container"], #slj-final-btn, #slv2-footer-wait-button:others()
+jobsdac.site,blkeo.com###slj-final-btn, #slv2-footer-wait-button:remove-attr(disabled)
+jobsdac.site,blkeo.com##+js(aopr, window.outerHeight)
+jobsdac.site,blkeo.com##+js(set, ai_adb_action, 0)
+||blkeo.com/Aggressive-Anti-AdBlock-fck-you.js$redirect=noopjs
 ||unsplash.com^$domain=blkeo.com
 ||w.org^$domain=blkeo.com
 ||ads93.ru^$domain=blkeo.com
