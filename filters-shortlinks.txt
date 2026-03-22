@@ -138,6 +138,7 @@ jobsdac.site,blkeo.com##[src*="/recaptcha/"], [class*="progress-text-container"]
 jobsdac.site,blkeo.com###slj-final-btn, #slv2-footer-wait-button:remove-attr(disabled)
 jobsdac.site,blkeo.com##+js(aopr, window.outerHeight)
 jobsdac.site,blkeo.com##+js(set, ai_adb_action, 0)
+jobsdac.site,blkeo.com##+js(nano-sib, itv, *, 0.002)
 ||blkeo.com/Aggressive-Anti-AdBlock-fck-you.js$redirect=noopjs
 ||unsplash.com^$domain=blkeo.com
 ||w.org^$domain=blkeo.com
