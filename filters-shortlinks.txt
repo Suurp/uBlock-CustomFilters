@@ -455,5 +455,6 @@ biofeita.com##+js(nostif, , 1000)
 pingulink.com##+js(set, blurred, false)
 
 !BITENCURTACASH
+lovemodz.space##[class^="sl"], [id^="sl"]:others()
 lovemodz.space##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='setInterval(() => { let a = new URLSearchParams(location.search).get("alias")\, b = document.querySelector("#sl-s-next a"); if (a && b) { b.href = "https://bit.encurtacash.com.br/" + a; b.onclick = null; } }\, 500);'>)
 encurtacash.com.br##+js(set, blurred, false)
