@@ -453,3 +453,7 @@ visastepguide.com##+js(nano-sib, iv, 1000, 0.02)
 biofeita.com##+js(nostif, , 1000)
 
 pingulink.com##+js(set, blurred, false)
+
+!BITENCURTACASH
+lovemodz.space##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='(function() { const a = new URLSearchParams(location.search).get("alias"); if (a) location.href = "https://bit.encurtacash.com.br/" + a; })();'>)
+encurtacash.com.br##+js(set, blurred, false)
