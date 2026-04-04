@@ -139,7 +139,7 @@ firefaucet.win###captcha-box > #description:style(display: block !important)
 firefaucet.win##+js(set, document.hasFocus, trueFunc)
 firefaucet.win###submit-button:watch-attr(onclick):remove-attr(onclick)
 firefaucet.win##+js(nano-sib, timer_complete, 1000, 0.02)
-firefaucet.win##+js(set, document.hasFocus, trueFunc)
+firefaucet.win##+js(aeld, /focus|blur|visibilitychange/, isPageActive)
 firefaucet.win##+js(rpnt, script, isRedirectEnabled && data.redirect, false)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=firefaucet.win
 
