@@ -79,12 +79,12 @@ hootrewards.com##+js(trusted-set-attr, #claimModal, class, 'show fade modal')
 ||bitadspace.com$domain=hootrewards.com
 
 !AOYCO.IN
-aoyco.in##+js(aopr, detectedAdblock)
-aoyco.in##+js(nowoif, , obj)
-aoyco.in##+js(set, window.closed, false)
-aoyco.in##+js(set, window.focus, falseFunc)
+aoyco.in##+js(nowoif, !/ptc/view/, obj)
+aoyco.in##+js(nano-stb, captchaData, 1000)
+aoyco.in##+js(no-fetch-if, /bmcdn6.com|outbrain.js|adligature.com|quant.js|srvtrck.com/, , '{"type": "opaque"}')
+aoyco.in###aoyco\.in-cpx, [x-data="featuredSlider()"], div:has(> ins), .ad-container, div.justify-center:has([src*="aoyco.in/ad/"])
 ||aoyco.in/js/ad-server.js$script,1p
-$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=aoyco.in
+$3p,frame,denyallow=cloudflare.com|bitcotasks.com|offerwall.me,redirect=noopframe,domain=aoyco.in
 
 !STARLAVINIA
 starlavinia.com##+js(aopr, window.outerWidth)
