@@ -79,7 +79,7 @@ hootrewards.com##+js(trusted-set-attr, #claimModal, class, 'show fade modal')
 ||bitadspace.com$domain=hootrewards.com
 
 !AOYCO.IN
-aoyco.in##+js(nowoif, !/ptc/view/, obj)
+aoyco.in##+js(nowoif, !/ptc/view/, *, obj)
 aoyco.in##+js(nano-stb, captchaData, 1000)
 aoyco.in##+js(no-fetch-if, /bmcdn6.com|outbrain.js|adligature.com|quant.js|srvtrck.com/, , '{"type": "opaque"}')
 aoyco.in###aoyco\.in-cpx, [x-data="featuredSlider()"], div:has(> ins), .ad-container, div.justify-center:has([src*="aoyco.in/ad/"])
