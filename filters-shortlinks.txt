@@ -430,3 +430,9 @@ pingulink.com##+js(set, blurred, false)
 lovemodz.space##[class^="sl"], [id^="sl"]:others()
 lovemodz.space##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='setInterval(() => { let a = new URLSearchParams(location.search).get("alias")\, b = document.querySelector("#sl-s-next a"); if (a && b) { b.href = "https://bit.encurtacash.com.br/" + a; b.onclick = null; } }\, 500);'>)
 encurtacash.com.br##+js(set, blurred, false)
+
+!PROURL
+prourl.online##+js(rpnt, script, '/stepNum > \d+/i', true)
+prourl.online##.progress-container, h3, #next-step-form:others()
+prourl.online###next-step-form:style(display: block !important)
+||pepearn.online$domain=prourl.online
