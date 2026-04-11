@@ -25,8 +25,8 @@ fdvzg.world##+js(nowoif, getLink)
 mail.ru##+js(nowoif, videoplayer)
 
 !OII.LA, TPI.LI
-aii.sh,tpi.li,oii.la##+js(set-attr, form[method="post"]:not(#go-link), action, '')
-tii.la,oei.la,iir.la,tvi.la,oii.la,tpi.li,lnbz.la##+js(rpnt, script, "document.body.appendChild(e);", "document.body.appendChild(e); window.location.assign(atob(document.documentElement.innerHTML.match(/aHR0c[^\"]+/g)[0]));")
+tii.la,oei.la,iir.la,tvi.la,oii.la,tpi.li,lnbz.la##+js(set-attr, form[method="post"]:not(#go-link), action, '')
+tii.la,oei.la,iir.la,tvi.la,oii.la,tpi.li,lnbz.la##+js(rpnt, script, "document.body.appendChild(e);", "document.body.appendChild(e);const inp=document.querySelector('input[name=\"token\"]');if(inp){const s=inp.value,i=s.indexOf('aHR0c');if(i!==-1){const raw=s.slice(i).split(/[^a-zA-Z0-9+\/]/)[0],b64=raw+'='.repeat((4-raw.length%4)%4);try{const u=atob(b64);if(['onlyfaucet.com','bitcotasks.com','viefaucet.com'].some(d=>u.includes(d))){const c=document.createElement('div');Object.assign(c.style,{position:'fixed',top:'300px',left:'50%',transform:'translateX(-50%)',zIndex:'2147483647',background:'#b21d1d',color:'#fff',padding:'10px',fontSize:'24px',textAlign:'center',fontWeight:'bold',borderRadius:'4px'});document.body.appendChild(c);let t=20,iv=setInterval(()=>t-->0?c.innerText='WAIT '+t+'s':(clearInterval(iv),c.remove(),location.assign(u)),1000);c.innerText='WAIT 20s'}else location.assign(u)}catch(e){}}}")
 
 !KUT.LI
 kut.li##+js(set, blurred, false)
