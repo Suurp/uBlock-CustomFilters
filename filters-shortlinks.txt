@@ -433,6 +433,6 @@ encurtacash.com.br##+js(set, blurred, false)
 
 !PROURL
 prourl.online##+js(rpnt, script, '/stepNum > \d+/i', true)
-prourl.online##.progress-container, h3, #next-step-form:others()
-prourl.online###next-step-form:style(display: block !important)
+prourl.online##.progress-container, h2, #finish-form:others()
+prourl.online###finish-form:style(display: block !important)
 ||pepearn.online$domain=prourl.online
