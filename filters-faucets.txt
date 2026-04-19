@@ -352,3 +352,23 @@ offerzono.com##div[style]:has([onclick="$(this).parent().fadeOut();"]), #frame, 
 offerzono.com##+js(nowoif, , *, obj)
 offerzono.com##+js(aost, window.onfocus)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=offerzono.com
+
+!HELPFPCOINT
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=depinprojectslist.com|faucet.cryptojobss.com|helpfpcoin.site
+depinprojectslist.com,faucet.cryptojobss.com,helpfpcoin.site##+js(set-constant, adsbygoogle, [])
+depinprojectslist.com,faucet.cryptojobss.com,helpfpcoin.site##+js(spoof-css, .Ad-Container\, .addsbygoogle, height, 1px)
+||helpfpcoin.site/js/ad_block.js
+||faucet.cryptojobss.com/js/ad_block.js
+||cryptojobss.com/api/js/block_detect.js
+
+depinprojectslist.com##+js(set-constant, Element.prototype.scrollIntoView, noopFunc)
+depinprojectslist.com##+js(nano-sib, initialTimerInterval, *, 0.02)
+depinprojectslist.com##[class^="fcj"]:others()
+depinprojectslist.com##.fcj-fa-box:style(display: flex !important; flex-direction: column-reverse !important;)
+depinprojectslist.com##.neu-single-page-layout:style(grid-template-columns: auto !important;)
+
+faucet.cryptojobss.com##+js(nano-sib, readyInterval, *, 0.02)
+faucet.cryptojobss.com###stickyBanner
+
+helpfpcoin.site##div[style^="text-align:center;"]
+$frame,3p,denyallow=cloudflare.com|offerwall.me|bitcotasks.com,redirect=noop.html,domain=helpfpcoin.site
