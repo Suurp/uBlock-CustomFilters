@@ -440,3 +440,9 @@ prourl.online##+js(rpnt, script, '/stepNum > \d+/i', true)
 prourl.online##.progress-container, h2, #finish-form:others()
 prourl.online###finish-form:style(display: block !important)
 ||pepearn.online$domain=prourl.online
+
+!FAUCETGUARD
+url.faucetguard.live##+js(rpnt, script, return true;, return false;, condition, bait)
+url.faucetguard.live##+js(trusted-rpnt, script, /var\s+seconds\s*=\s*\d+/, var seconds=1, includes, isAdblockActive)
+url.faucetguard.live##.blog-item
+url.faucetguard.live##footer
