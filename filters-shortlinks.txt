@@ -234,13 +234,17 @@ smartskip.xyz##+js(rpnt, script, /clickCount >= REQUIRED_CLICKS|done == 0|curren
 smartskip.xyz##+js(alert-buster)
 
 !SHORTDL.COM
-g34new.com,dlgamingvn.com##+js(rmnt, script, /redirectIfAdblock|detectDevTools/)
-g34new.com,dlgamingvn.com###button3:others()
-g34new.com,dlgamingvn.com###button3:style(display: block !important)
+||shrinkearn.com/st^$urlskip=/(?:.*[?&]url=)([^&]+)$/ 
+dlgamingvn.com,shortdl.com##+js(set, blurred, false)
+dlgamingvn.com##.article-main-content:style(margin-top: unset !important)
+dlgamingvn.com###alf_continue:others()
+dlgamingvn.com##+js(set-constant, app_vars.force_disable_adblock, false)
+dlgamingvn.com##+js(set-constant, window.checkAdblockUser, noopFunc)
+dlgamingvn.com##+js(spoof-css, #ad-banner, height, 1px)
+dlgamingvn.com##+js(spoof-css, #ad-banner, display, block)
 
-shortdl.com##.box-main > :not(#myDIV, #plswait)
-shortdl.com##+js(rmnt, script, performance.navigation.type)
-shortdl.com##+js(nowoif, go-popup)
+shortdl.com##+js(aeld, /click|submit/)
+shortdl.com##.text-left, .banner
 
 !ISCUT.EU
 earnpilot.eu,trendzilla.club,gamerev.us##+js(nosiif, , 500)
