@@ -270,9 +270,10 @@ linkforearn.com##+js(noeval-if, /chp_?ad/)
 linkforearn.com##+js(aeld, contextmenu)
 
 !FC-LC
-fc-lc.*##+js(rpnt, script, /dwellOK && scoreOK && !redirected/, true)
-fc-lc.*##+js(rpnt, script, MIN_DWELL_MS = 4000, MIN_DWELL_MS = 0)
-fc-lc.*##+js(rpnt, script, MIN_SCORE    = 5, MIN_SCORE    = 0)
+fc-lc.xyz##+js(set, activityCompleted, true)
+fc-lc.xyz##+js(set, progress, 100)
+fc-lc.xyz###cf-section:style(display: block !important)
+fc-lc.xyz##+js(nobab)
 
 !VMKEO
 blkeo.com##+js(rpnt, script, ai_block_class_def)
