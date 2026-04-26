@@ -372,3 +372,13 @@ faucet.cryptojobss.com###stickyBanner
 
 helpfpcoin.site##div[style^="text-align:center;"]
 $frame,3p,denyallow=cloudflare.com|offerwall.me|bitcotasks.com,redirect=noop.html,domain=helpfpcoin.site
+
+!FREEBITS
+freebits.xyz##+js(trusted-rpnt, script, window.location.replace(_lockedUrl), void 0, includes, _lockedUrl)
+freebits.xyz##+js(nostif, data.redirect, 1000)
+freebits.xyz##div:has(> #frame)
+freebits.xyz##+js(nano-sib, $btn, *, 0.02)
+freebits.xyz###loadingFaucet
+freebits.xyz###claimFaucet:remove-class(d-none)
+freebits.xyz##+js(nano-stb, , *, 0.20)
+$3p,frame,denyallow=cloudflare.com|youtube.com|bitcotasks.com,redirect=noopframe,domain=freebits.xyz
