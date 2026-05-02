@@ -451,3 +451,9 @@ url.faucetguard.live##+js(rpnt, script, return true;, return false;, condition, 
 url.faucetguard.live##+js(trusted-rpnt, script, /var\s+seconds\s*=\s*\d+/, var seconds=1, includes, isAdblockActive)
 url.faucetguard.live##.blog-item
 url.faucetguard.live##footer
+
+!ADLINKY
+adlinky.top###bc-toast-ad
+adlinky.top##+js(nowoif)
+adlinky.top##+js(trusted-override-element-method, HTMLAnchorElement.prototype.click, a[target="_blank"][style])
+adlinky.top##+js(trusted-create-html, head, <img src='/n5dev.png' onerror='(function(originalFetch) { let count = 1000; window.fetch = async (...args) => { if (args[0].includes("telegram/count")) return new Response(JSON.stringify({ join_count: ++count })); return originalFetch.apply(this\, args); }; })(window.fetch);'>)
