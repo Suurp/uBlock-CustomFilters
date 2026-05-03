@@ -421,7 +421,7 @@ cety.app,cutlink.net,cutnet.net,cuttlinks.com,cutty.app,exe-links.com,exe-urls.c
 goodprompt.online,bestprompt.online##+js(set, blurred, false)
 goodprompt.online,bestprompt.top,bestprompt.online##.blog-item > .page-header
 
-!PINGULINK
+!BITENCURTACASH - ENCURTACASH - PINGULINK
 visastepguide.com##+js(noeval-if, /chp_?ad/)
 visastepguide.com##.steps, #btnx, #sl-cookie-overlay:others()
 visastepguide.com###btnx, #btn6:style(display: block !important)
@@ -433,11 +433,11 @@ biofeita.com##+js(nostif, , 1000)
 
 pingulink.com##+js(set, blurred, false)
 
-!BITENCURTACASH - ENCURTACASH
 lovemodz.space##[class^="sl"], [id^="sl"]:others()
 lovemodz.space##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='setInterval(() => { let a = new URLSearchParams(location.search).get("alias")\, b = document.querySelector("#sl-s-next a"); if (a && b) { b.href = "https://bit.encurtacash.com.br/" + a; b.onclick = null; } }\, 500);'>)
 
 bitdown.site##+js(rpnt, script, /var redirectUrl\s*=\s*["'][^"']+["']/, var redirectUrl="https://encurtacash.com.br/"+(document.cookie.match(/(?:^|;\s*)safelink_alias=([^;]+)/)||[])[1], includes, redirectUrl)
+bitdown.site##+js(rpnt, script, /const redirectUrl\s*=\s*["'][^"']+["']/, const redirectUrl=decodeURIComponent((document.cookie.match(/(?:^|;\s*)safelink_step4_url=([^;]+)/)||[])[1]))
 bitdown.site##+js(rpnt, script, /var t\s*=\s*\d+/, var t=15, includes, redirectUrl)
 bitdown.site##+js(nostif, , 8000)
 encurtacash.com.br##+js(set, blurred, false)
