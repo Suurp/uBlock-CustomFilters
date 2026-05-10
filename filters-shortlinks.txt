@@ -421,7 +421,11 @@ cety.app,cutlink.net,cutnet.net,cuttlinks.com,cutty.app,exe-links.com,exe-urls.c
 goodprompt.online,bestprompt.online##+js(set, blurred, false)
 goodprompt.online,bestprompt.top,bestprompt.online##.blog-item > .page-header
 
-!BITENCURTACASH - ENCURTACASH - PINGULINK
+!BITENCURTACASH - ENCURTACASH - PINGULINK - BITDOWN
+!https://me.pingulink.com/OWfdyalex6b
+!bit.encurtacash.com.br/OWp63ykjgo5
+!https://app.bitdown.site/OWME94619c1f
+
 visastepguide.com##+js(noeval-if, /chp_?ad/)
 visastepguide.com##.steps, #btnx, #sl-cookie-overlay:others()
 visastepguide.com###btnx, #btn6:style(display: block !important)
@@ -441,6 +445,10 @@ bitdown.site##+js(rpnt, script, /const redirectUrl\s*=\s*["'][^"']+["']/, const 
 bitdown.site##+js(rpnt, script, /var t\s*=\s*\d+/, var t=15, includes, redirectUrl)
 bitdown.site##+js(nostif, , 8000)
 encurtacash.com.br##+js(set, blurred, false)
+
+alertamoney.com##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='(function(){ var tp = document.cookie.split("; ").reduce(function(acc\, c){ var p = c.split("="); return p[0] === "tp" ? decodeURIComponent(p[1]) : acc; }\, null); if(!tp) return; var url = "https://app.bitdown.site/" + tp; var form = document.querySelector("form[name=tp]"); if(!form) return; form.setAttribute("action"\, url); form.setAttribute("method"\, "get"); })();'></img>)
+alertamoney.com##+js(rpnt, script, var COUNTDOWN_SECS = 6;, var COUNTDOWN_SECS = 16;)
+alertamoney.com##+js(rpnt, script, /var TOTAL_MS\s+= 10000;/, var TOTAL_MS = 19000)
 
 !PROURL
 prourl.online##+js(rpnt, script, '/stepNum > \d+/i', true)
