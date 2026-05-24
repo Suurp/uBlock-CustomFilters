@@ -382,3 +382,13 @@ freebits.xyz###loadingFaucet
 freebits.xyz###claimFaucet:remove-class(d-none)
 freebits.xyz##+js(nano-stb, , *, 0.20)
 $3p,frame,denyallow=cloudflare.com|youtube.com|bitcotasks.com,redirect=noopframe,domain=freebits.xyz
+
+!ARUBLE
+@@*$ghide,domain=aruble.net
+||aruble.net/pagead/js/adsbygoogle.js$script,redirect=noopjs
+aruble.net##.ad-slot-rectangle.ad-slot
+aruble.net##+js(rpnt, script, "'IFRAME'", "'BODY'")
+aruble.net##+js(nowoif, , *, obj)
+aruble.net##+js(set, document.hidden, true)
+aruble.net##+js(trusted-replace-argument, document.addEventListener, 0, json:"click", condition, visibilitychange)
+$3p,frame,denyallow=cloudflare.com|bitcotasks.com,redirect=noopframe,domain=aruble.net
