@@ -426,12 +426,12 @@ goodprompt.online,bestprompt.top,bestprompt.online##.blog-item > .page-header
 !bit.encurtacash.com.br/OWp63ykjgo5
 !https://app.bitdown.site/OWME94619c1f
 
-visastepguide.com##+js(noeval-if, /chp_?ad/)
-visastepguide.com##.steps, #btnx, #sl-cookie-overlay:others()
-visastepguide.com###btnx, #btn6:style(display: block !important)
-visastepguide.com###btnx:remove-attr(disabled)
-visastepguide.com##+js(nano-stb, timeLeft , 2000, 0.02)
-visastepguide.com##+js(nano-sib, iv, 1000, 0.02)
+valorcentral.com.br,tudocredito.com.br,visastepguide.com##+js(noeval-if, /chp_?ad/)
+valorcentral.com.br,tudocredito.com.br,visastepguide.com##.steps, #btnx, #sl-cookie-overlay:others()
+valorcentral.com.br,tudocredito.com.br,visastepguide.com###btnx, #btn6:style(display: block !important)
+valorcentral.com.br,tudocredito.com.br,visastepguide.com###btnx:remove-attr(disabled)
+valorcentral.com.br,tudocredito.com.br,visastepguide.com##+js(nano-stb, timeLeft , 2000, 0.02)
+valorcentral.com.br,tudocredito.com.br,visastepguide.com##+js(nano-sib, iv, 1000, 0.02)
 
 biofeita.com##+js(nostif, , 1000)
 
