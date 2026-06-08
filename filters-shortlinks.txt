@@ -491,3 +491,26 @@ mcafee-com.com##+js(rpnt, script, !document.hidden, true)
 mcafee-com.com##+js(nano-sib, check, 1000, 0.02)
 mcafee-com.com##+js(rpnt, script, element.contains(document.activeElement), true)
 mcafee-com.com##+js(rpnt, script, element.contains(document.activeElement) && document.hidden && !timeCounted, true)
+
+!VEXO-LINK
+https://vexo-link.com/OWp9mf2qk4d
+alyooum.com,berksh.com##+js(aeld, contextmenu)
+alyooum.com,berksh.com##+js(acs, document.onkeydown)
+alyooum.com,berksh.com##+js(trusted-set, ViewArticleGate.seconds, json:"0")
+alyooum.com,berksh.com##+js(trusted-set, ViewArticleGate.twoProgress, json:"")
+alyooum.com,berksh.com##.vag-first-next:style(display: block !important)
+alyooum.com,berksh.com##.vag-first-next, #bottomProgressBarContainer, .vag-final-next:others()
+vexo-link.com##+js(set, blurred, false)
+vexo-link.com##+js(nowoif)
+
+!ADOLLY
+! https://adolly.me/OW09e5s47a4
+viepositive.cc,techfacile.cc,santenaturelle.cc,peaueclat.com,mode-parisienne.com,maisonelegante.cc,lejardinvert.cc,espritnomade.cc,cuisine-minute.com,argentintelligent.com##+js(aeld, visibilitychange)
+viepositive.cc,techfacile.cc,santenaturelle.cc,peaueclat.com,mode-parisienne.com,maisonelegante.cc,lejardinvert.cc,espritnomade.cc,cuisine-minute.com,argentintelligent.com###btn:others()
+viepositive.cc,techfacile.cc,santenaturelle.cc,peaueclat.com,mode-parisienne.com,maisonelegante.cc,lejardinvert.cc,espritnomade.cc,cuisine-minute.com,argentintelligent.com##+js(rpnt, script, step < currentStage.length, false)
+viepositive.cc,techfacile.cc,santenaturelle.cc,peaueclat.com,mode-parisienne.com,maisonelegante.cc,lejardinvert.cc,espritnomade.cc,cuisine-minute.com,argentintelligent.com##+js(rpnt, script, !document.hidden;, true)
+adolly.me##+js(set, blurred, false)
+||pexels.com$domain=viepositive.cc|techfacile.cc|santenaturelle.cc|peaueclat.com|mode-parisienne.com|maisonelegante.cc|lejardinvert.cc|espritnomade.cc|cuisine-minute.com|argentintelligent.com
+||blogger.com$domain=viepositive.cc|techfacile.cc|santenaturelle.cc|peaueclat.com|mode-parisienne.com|maisonelegante.cc|lejardinvert.cc|espritnomade.cc|cuisine-minute.com|argentintelligent.com
+
+
