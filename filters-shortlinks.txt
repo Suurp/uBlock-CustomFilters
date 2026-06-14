@@ -499,12 +499,12 @@ mcafee-com.com##+js(rpnt, script, element.contains(document.activeElement) && do
 
 !VEXO-LINK
 https://vexo-link.com/OWp9mf2qk4d
-alyooum.com,berksh.com##+js(aeld, contextmenu)
-alyooum.com,berksh.com##+js(acs, document.onkeydown)
-alyooum.com,berksh.com##+js(trusted-set, ViewArticleGate.seconds, json:"0")
-alyooum.com,berksh.com##+js(trusted-set, ViewArticleGate.twoProgress, json:"")
-alyooum.com,berksh.com##.vag-first-next:style(display: block !important)
-alyooum.com,berksh.com##.vag-first-next, #bottomProgressBarContainer, .vag-final-next:others()
+gcamupdater.com,alyooum.com,berksh.com##+js(aeld, contextmenu)
+gcamupdater.com,alyooum.com,berksh.com##+js(acs, document.onkeydown)
+gcamupdater.com,alyooum.com,berksh.com##+js(trusted-set, ViewArticleGate.seconds, json:"0")
+gcamupdater.com,alyooum.com,berksh.com##+js(trusted-set, ViewArticleGate.twoProgress, json:"")
+gcamupdater.com,alyooum.com,berksh.com##.vag-first-next:style(display: block !important)
+gcamupdater.com,alyooum.com,berksh.com##.vag-first-next, #bottomProgressBarContainer, .vag-final-next:others()
 vexo-link.com##+js(set, blurred, false)
 vexo-link.com##+js(nowoif)
 
