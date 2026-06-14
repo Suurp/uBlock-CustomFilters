@@ -82,7 +82,10 @@ ecofriendlyz.com,homesteadfeast.com,virtualrealitieshub.com,playallgames.net,bre
 
 !ADLINK
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12555848
-maqal360.com,diudemy.com###countdown-wrapper, .go_next:others()
+maqal360.com##+js(rpnt, script, /var SEC = \d+;/, var SEC = 1;)
+maqal360.com###cap-box:style(display: block !important)
+maqal360.com###cap-submit:remove-attr(disabled)
+maqal360.com,diudemy.com###countdown-wrapper, .go_next, .bypass-card, #cap-box, #step-ok, #cta-btn:others()
 maqal360.com,diudemy.com###skip-btn:style(display: block !important)
 maqal360.com,diudemy.com##+js(acs, document.onkeydown)
 maqal360.com,diudemy.com##+js(aeld, contextmenu)
