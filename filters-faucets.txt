@@ -392,3 +392,15 @@ aruble.net##+js(nowoif, , *, obj)
 aruble.net##+js(set, document.hidden, true)
 aruble.net##+js(trusted-replace-argument, document.addEventListener, 0, json:"click", condition, visibilitychange)
 $3p,frame,denyallow=cloudflare.com|bitcotasks.com,redirect=noopframe,domain=aruble.net
+
+!FAUCETGOLD
+faucet.gold##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='(function(){ const orig=document.hasFocus.bind(document); document.hasFocus=function(){ const s=new Error().stack||""; if(s.includes("TimerButton-")) return true; if(s.includes("View-")) return false; return orig(); }; })();'>)
+faucet.gold##+js(no-fetch-if, ctengine.io)
+faucet.gold##+js(aeld, visibilitychange)
+faucet.gold##+js(no-fetch-if, bmcdn3.com)
+faucet.gold##[role="tabpanel"]:has([id*="ad-iframe"]), div:has(> [id*="ad-iframe"])
+faucet.gold##+js(no-fetch-if, live-feed)
+faucet.gold##+js(nowoif, , *, obj)
+faucet.gold##+js(trusted-suppress-native-method, window.open, 'bcgame.sk', prevent)
+faucet.gold##+js(trusted-override-element-method, HTMLAnchorElement.prototype.click, a[target="_blank"][data-slot="base"], debug)
+$3p,frame,denyallow=cloudflare.com|bitcotasks.com|offerwall.me|timewall.io,redirect=noopframe,domain=faucet.gold
