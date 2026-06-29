@@ -219,9 +219,11 @@ fastcoins.click##[id^="floating_ad"], div:has(iframe)
 fastcoins.click##+js(set, document.hasFocus, trueFunc)
 fastcoins.click##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function () { "use strict"; const SELECTOR = ".emoji-option"; function onEmojiEnabled() { const emojiS = document.querySelector(".modal-content p > strong")?.textContent.trim(); if (!emojiS) return; document.querySelectorAll(SELECTOR).forEach(emoji => { const textEmo = emoji.textContent.trim(); if (!emoji.hasAttribute("disabled") && textEmo === emojiS) { console.log(`✅ Emoji habilitado: ${textEmo} → haciendo clic...`); emoji.click(); } }); } new MutationObserver(mutations => { for (const { target\, type\, attributeName } of mutations) { if (type === "attributes" && attributeName === "disabled" && target.matches(SELECTOR)) { if (!target.hasAttribute("disabled")) onEmojiEnabled(); } } }).observe(document.body\, { attributes: true\, childList: true\, subtree: true }); })();'></img>)
 
-!AD-DOGE.COM    
+!AD-DOGE.COM
+@@$ghide,domain=ad-doge.com
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=ad-doge.com
 ||ad-doge.com/assets/*.gif$redirect=1x1.gif
+ad-doge.com###stickyAd
 ad-doge.com#@#+js(nostif, _0x)
 ad-doge.com##+js(nowoif, , obj)
 ad-doge.com##+js(acs, document.createElement, /cdn.bmcdn6.com|cleverwebserver.com/)
