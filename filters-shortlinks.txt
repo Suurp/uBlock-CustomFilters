@@ -474,10 +474,13 @@ prourl.online###finish-form:style(display: block !important)
 ||pepearn.online$domain=prourl.online
 
 !FAUCETGUARD
-url.faucetguard.live##+js(rpnt, script, return true;, return false;, condition, bait)
-url.faucetguard.live##+js(trusted-rpnt, script, /var\s+seconds\s*=\s*\d+/, var seconds=1, includes, isAdblockActive)
-url.faucetguard.live##.blog-item
-url.faucetguard.live##footer
+@@$ghide,domain=faucetguard.live
+||faucetguard.live/blog/wp-content/plugins/baadblock-detector/assets/$redirect=noopjs
+||faucetguard.live/blog/how-to-build-a-crypto-income-portfolio-with-staking/baadblock-detector-js-extra$redirect=noopjs
+faucetguard.live##.blg-card--template2-action:others()
+faucetguard.live##.box-main > .blog-item
+faucetguard.live##+js(set, blurred, false)
+faucetguard.live##+js(nano-sib, seconds, *, 0.02)
 
 !ADLINKY
 adlinky.top###bc-toast-ad
@@ -519,5 +522,3 @@ viepositive.cc,techfacile.cc,santenaturelle.cc,peaueclat.com,mode-parisienne.com
 adolly.me##+js(set, blurred, false)
 ||pexels.com$domain=viepositive.cc|techfacile.cc|santenaturelle.cc|peaueclat.com|mode-parisienne.com|maisonelegante.cc|lejardinvert.cc|espritnomade.cc|cuisine-minute.com|argentintelligent.com
 ||blogger.com$domain=viepositive.cc|techfacile.cc|santenaturelle.cc|peaueclat.com|mode-parisienne.com|maisonelegante.cc|lejardinvert.cc|espritnomade.cc|cuisine-minute.com|argentintelligent.com
-
-
