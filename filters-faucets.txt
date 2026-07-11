@@ -11,23 +11,24 @@
 
 !BITCOTASK
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12618435
+||rollercoin.com^$image,3p,redirect-rule=1x1.gif,domain=bitcotasks.com
+||bitcotasks.com/popad*$redirect=popads.js
 @@||bitcotasks.com/captcha2/*
 bitcotasks.com#@#+js(nostif, alert)
 bitcotasks.com#@#+js(nostif, offsetWidth)
 bitcotasks.com#@#+js(no-fetch-if, bmcdn6)
 bitcotasks.com##+js(no-fetch-if, bmcdn6, length:11000, '{"type": "opaque"}')
-bitcotasks.com##+js(nostif, window.location.replace, 1200)
-bitcotasks.com##+js(rpnt, script, /window\.open\(['"]([^'"]+)['"]\);/gm, true, condition, myWindow)
+bitcotasks.com##+js(no-xhr-if, czilladx)
+bitcotasks.com##[class^="floating-banner"]
 bitcotasks.com##+js(rpnt, script, timer > 2 && window_focus === true, false)
-bitcotasks.com##+js(rpnt, script, myWindow.closed == true || window_focus, false, condition, myWindow)
-bitcotasks.com##+js(set, window_focus, true)
-bitcotasks.com##+js(set, window_paused, false)
-bitcotasks.com###BitcoAdContainer, #blog, .main-content:has([data-url])
-bitcotasks.com##+js(nano-stb, showadbar, 5000)
-bitcotasks.com##+js(nano-stb, show_captcha, 1000)
-bitcotasks.com##+js(nano-sib, timerInterval, 1000, 0.20)
-bitcotasks.com##+js(nano-stb, a.link, 1000, 0.20)
-||bitcotasks.com/popad*$redirect=popads.js
+bitcotasks.com##+js(rpnt, script, /myWindow\s*=\s*window\.open\([^)]+\);/, myWindow = true;, condition, myWindow)
+bitcotasks.com##+js(rpnt, script, /window\.location\.replace\(['"][^'"]+['"]\)/, window.close();) 
+bitcotasks.com##+js(nano-sib, /showContinueButton|clickMessage/, 1000, 0.10)
+bitcotasks.com##:matches-path(/offerwall) #BitcoAdContainer, #sponsored-bar, [id][style*="z-index:9999999"]
+bitcotasks.com##:matches-path(/lead) .surfbar, #validateVisit:others()
+bitcotasks.com,ad-doge.com##:matches-path(/blog) #overlay > div:not(#cf-turnstile-container), #scrollMessage, #progressBarContainer, #contbutt:others()
+bitcotasks.com,ad-doge.com##+js(rpnt, script, document.hasFocus(), true, condition, scrollMessage)
+bitcotasks.com##:matches-path(/post) .faucet-card, #clickMessage, .banner, [src*="newassets.hcaptcha.com/captcha/"], .swal2-container:others()
 
 !VIEFAUCET
 viefaucet.com##.el-col:not(:has(> .claim-faucet, .wait-container)):has(> .ads > iframe)
