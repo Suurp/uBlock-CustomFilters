@@ -26,7 +26,7 @@ bitcotasks.com##+js(rpnt, script, /window\.location\.replace\(['"][^'"]+['"]\)/,
 bitcotasks.com##+js(nano-sib, /showContinueButton|clickMessage/, 1000, 0.10)
 bitcotasks.com##:matches-path(/offerwall) #BitcoAdContainer, #sponsored-bar, [id][style*="z-index:9999999"]
 bitcotasks.com##:matches-path(/lead) .surfbar, #validateVisit:others()
-bitcotasks.com,ad-doge.com##:matches-path(/blog) #overlay > div:not(#cf-turnstile-container), #scrollMessage, #progressBarContainer, #contbutt:others()
+bitcotasks.com,ad-doge.com##:matches-path(/blog) #cf-turnstile-container, #scrollMessage, #progressBarContainer, #contbutt:others()
 bitcotasks.com,ad-doge.com##+js(rpnt, script, document.hasFocus(), true, condition, scrollMessage)
 bitcotasks.com##:matches-path(/post) .faucet-card, #clickMessage, .banner, [src*="newassets.hcaptcha.com/captcha/"], .swal2-container:others()
 
