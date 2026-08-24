@@ -434,54 +434,34 @@ cety.app,cutlink.net,cutnet.net,cuttlinks.com,cutty.app,exe-links.com,exe-urls.c
 goodprompt.online,bestprompt.online##+js(set, blurred, false)
 goodprompt.online,bestprompt.top,bestprompt.online##.blog-item > .page-header
 
-!BITENCURTACASH - ENCURTACASH - PINGULINK - BITDOWN
+!BITENCURTACASH - ENCURTACASH - PINGULINK - BITDOWN - ASTROREDE
 !https://me.pingulink.com/OWfdyalex6b
 !bit.encurtacash.com.br/OWp63ykjgo5
 !https://app.bitdown.site/OWME94619c1f
 
-valorcentral.com.br,tudocredito.com.br,visastepguide.com##+js(noeval-if, /chp_?ad/)
-valorcentral.com.br,tudocredito.com.br,visastepguide.com##.steps, #btnx, #sl-cookie-overlay:others()
-valorcentral.com.br,tudocredito.com.br,visastepguide.com###btnx, #btn6:style(display: block !important)
-valorcentral.com.br,tudocredito.com.br,visastepguide.com###btnx:remove-attr(disabled)
-valorcentral.com.br,tudocredito.com.br,visastepguide.com##+js(nano-stb, timeLeft , 2000, 0.02)
-valorcentral.com.br,tudocredito.com.br,visastepguide.com##+js(nano-sib, iv, 1000, 0.02)
+! https://cut.astrorede.com/OW8et6iuz5c
+caminhodesperto.com,fofocasdomercado.com.br###divSteps, #divMsgBtn:others()
+caminhodesperto.com,fofocasdomercado.com.br##+js(nano-sib, /contador|timerInterval/, *, 0.02)
+caminhodesperto.com,fofocasdomercado.com.br##+js(nano-stb, divMsgBtn, *, 0.2)
+
+! https://me.astrorede.com/OWfq4ry0nhs
+! https://astrorede.com/OWksmfbmvgt
+dev.bitdown.site##+js(nano-sib, iv, 0.002)
+snet.blog##+js(trusted-replace-argument, window.open, 1, repl:/blank/self/)
+||dl.ad-money.net^$urlskip=?fallback -uricomponent
 
 @@$ghide,domain=biofeita.com|tarviral.com|rodaemotor.com
-||onebigmedia.*$domain=mcorporation.com.br|biofeita.com|submais.com
+gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##div[role="dialog"], div:has(> iframe[src^="/ad-frame"]), [id*="randomAds"]:others()
+gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(nano-sib, /.?/, *, 0.20)
+gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(nano-stb, /.?/, *, 0.20)
 mcorporation.com.br,biofeita.com,submais.com##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='(function(){ let _hidden=false; let _timer=null; Object.defineProperty(document\,"hidden"\,{get:()=>_hidden\,configurable:true}); Object.defineProperty(document\,"visibilityState"\,{get:()=>_hidden?"hidden":"visible"\,configurable:true}); function fireVisibility(val){ _hidden=val; document.dispatchEvent(new Event("visibilitychange")); } function checkState(){ const items=[...document.querySelectorAll("li.action-item")].filter(function(li){ return li.getAttribute("data-disabled")!=="true"; }); const awaiting=items.find(function(li){ return li.getAttribute("data-state")==="awaiting-return"; }); if(awaiting){ if(_timer) return; fireVisibility(true); fireVisibility(false); } } const obs=new MutationObserver(function(muts){ muts.forEach(function(m){ if(m.type==="attributes"&&(m.attributeName==="data-state"||m.attributeName==="data-disabled")) checkState(); }); }); function startObs(){ document.querySelectorAll("li.action-item").forEach(function(li){ obs.observe(li\,{attributes:true\,attributeFilter:["data-state"\,"data-disabled"]}); }); } if(document.querySelector("li.action-item")){ startObs(); }else{ new MutationObserver(function(m\,o){ if(document.querySelector("li.action-item")){ o.disconnect(); startObs(); } }).observe(document.documentElement\,{childList:true\,subtree:true}); } })();'>)
 tarviral.com,rodaemotor.com##+js(trusted-set-cookie, stp, 2, , none, dontOverwrite, 1)
 mcorporation.com.br,biofeita.com,submais.com##+js(set-session-storage-item, content_unlocked, 1)
 mcorporation.com.br,biofeita.com,submais.com##.action-link[href]:watch-attr(href):remove-attr(/href|target/)
 tarviral.com,rodaemotor.com##button[data-slot="button"].my-4, .fixed, .GoogleActiveViewInnerContainer:others()
 
-biofeita.com##+js(nano-stb, , 5000, 0.02)
-biofeita.com##+js(nano-sib, Math.max, 1000, 0.02)
-
-!bitdown.site##+js(nano-sib, slLeft, *, 0.02)
-
-mcorporation.com.br,submais.com##+js(nano-stb)
-mcorporation.com.br,submais.com##+js(nano-sib)
-
-snet.blog##+js(nostif, , 8000)
-snet.blog##+js(trusted-replace-argument, window.open, 1, json:"_self", condition, _blank)
-
-gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(nano-sib, /.?/, *, 0.002)
-gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(nano-stb, /.?/, *, 0.002)
-gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##[src*="/ad-frame/"], [src*="/ad-frame/"] ~ *:others()
-
-lovemodz.space##[class^="sl"], [id^="sl"]:others()
-lovemodz.space##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='setInterval(() => { let a = new URLSearchParams(location.search).get("alias")\, b = document.querySelector("#sl-s-next a"); if (a && b) { b.href = "https://bit.encurtacash.com.br/" + a; b.onclick = null; } }\, 500);'>)
-
-bitdown.site##+js(rpnt, script, alias;, alias; const a=document.querySelector("#sl-s-next>a"); if(a) a.setAttribute("href"\,step4Url);, includes, slCaptchaOk)
-bitdown.site##+js(rpnt, script, /var redirectUrl\s*=\s*["'][^"']+["']/, var redirectUrl="https://encurtacash.com.br/"+(document.cookie.match(/(?:^|;\s*)safelink_alias=([^;]+)/)||[])[1], includes, redirectUrl)
-bitdown.site##+js(rpnt, script, /const redirectUrl\s*=\s*["'][^"']+["']/, const redirectUrl=decodeURIComponent((document.cookie.match(/(?:^|;\s*)safelink_step4_url=([^;]+)/)||[])[1]))
-bitdown.site##+js(rpnt, script, /var t\s*=\s*\d+/, var t=15, includes, redirectUrl)
-bitdown.site##+js(nostif, , 8000)
-encurtacash.com.br##+js(set, blurred, false)
-
-alertamoney.com##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='(function(){ var tp = document.cookie.split("; ").reduce(function(acc\, c){ var p = c.split("="); return p[0] === "tp" ? decodeURIComponent(p[1]) : acc; }\, null); if(!tp) return; var url = "https://app.bitdown.site/" + tp; var form = document.querySelector("form[name=tp]"); if(!form) return; form.setAttribute("action"\, url); form.setAttribute("method"\, "get"); })();'></img>)
-alertamoney.com##+js(rpnt, script, var COUNTDOWN_SECS = 6;, var COUNTDOWN_SECS = 16;)
-alertamoney.com##+js(rpnt, script, /var TOTAL_MS\s+= 10000;/, var TOTAL_MS = 19000)
+lovemodz.space##+js(nano-sib, iv, *, 0.002)
+lovemodz.space##[class^="sl-ad"]
 
 !PROURL
 prourl.online##+js(rpnt, script, '/stepNum > \d+/i', true)
