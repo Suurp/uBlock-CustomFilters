@@ -450,10 +450,11 @@ dev.bitdown.site##+js(nano-sib, iv, 0.002)
 snet.blog##+js(trusted-replace-argument, window.open, 1, repl:/blank/self/)
 ||dl.ad-money.net^$urlskip=?fallback -uricomponent
 
-@@$ghide,domain=biofeita.com|tarviral.com|rodaemotor.com
-gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##div[role="dialog"], div:has(> iframe[src^="/ad-frame"]), [id*="randomAds"]:others()
-gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(nano-sib, /.?/, *, 0.20)
-gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(nano-stb, /.?/, *, 0.20)
+@@$ghide,domain=biofeita.com|tarviral.com|rodaemotor.com|visastepguide.com
+visastepguide.com##+js(aeld, DOMContentLoaded, run)
+visastepguide.com,gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##div[role="dialog"], div:has(> iframe[src^="/ad-frame"]), [id*="randomAds"]:others()
+visastepguide.com,gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(nano-sib, /.?/, *, 0.20)
+visastepguide.com,gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(nano-stb, /.?/, *, 0.20)
 mcorporation.com.br,biofeita.com,submais.com##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='(function(){ let _hidden=false; let _timer=null; Object.defineProperty(document\,"hidden"\,{get:()=>_hidden\,configurable:true}); Object.defineProperty(document\,"visibilityState"\,{get:()=>_hidden?"hidden":"visible"\,configurable:true}); function fireVisibility(val){ _hidden=val; document.dispatchEvent(new Event("visibilitychange")); } function checkState(){ const items=[...document.querySelectorAll("li.action-item")].filter(function(li){ return li.getAttribute("data-disabled")!=="true"; }); const awaiting=items.find(function(li){ return li.getAttribute("data-state")==="awaiting-return"; }); if(awaiting){ if(_timer) return; fireVisibility(true); fireVisibility(false); } } const obs=new MutationObserver(function(muts){ muts.forEach(function(m){ if(m.type==="attributes"&&(m.attributeName==="data-state"||m.attributeName==="data-disabled")) checkState(); }); }); function startObs(){ document.querySelectorAll("li.action-item").forEach(function(li){ obs.observe(li\,{attributes:true\,attributeFilter:["data-state"\,"data-disabled"]}); }); } if(document.querySelector("li.action-item")){ startObs(); }else{ new MutationObserver(function(m\,o){ if(document.querySelector("li.action-item")){ o.disconnect(); startObs(); } }).observe(document.documentElement\,{childList:true\,subtree:true}); } })();'>)
 tarviral.com,rodaemotor.com##+js(trusted-set-cookie, stp, 2, , none, dontOverwrite, 1)
 mcorporation.com.br,biofeita.com,submais.com##+js(set-session-storage-item, content_unlocked, 1)
