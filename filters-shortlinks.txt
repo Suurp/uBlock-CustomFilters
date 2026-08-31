@@ -450,19 +450,22 @@ dev.bitdown.site##+js(nano-sib, iv, 0.002)
 snet.blog##+js(trusted-replace-argument, window.open, 1, repl:/blank/self/)
 ||dl.ad-money.net^$urlskip=?fallback -uricomponent
 
-@@$ghide,domain=biofeita.com|tarviral.com|rodaemotor.com|visastepguide.com
-visastepguide.com##+js(aeld, DOMContentLoaded, run)
-visastepguide.com,gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##div[role="dialog"], div:has(> iframe[src^="/ad-frame"]), [id*="randomAds"]:others()
-visastepguide.com,gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(nano-sib, /.?/, *, 0.20)
-visastepguide.com,gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(nano-stb, /.?/, *, 0.20)
-mcorporation.com.br,biofeita.com,submais.com##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='(function(){ let _hidden=false; let _timer=null; Object.defineProperty(document\,"hidden"\,{get:()=>_hidden\,configurable:true}); Object.defineProperty(document\,"visibilityState"\,{get:()=>_hidden?"hidden":"visible"\,configurable:true}); function fireVisibility(val){ _hidden=val; document.dispatchEvent(new Event("visibilitychange")); } function checkState(){ const items=[...document.querySelectorAll("li.action-item")].filter(function(li){ return li.getAttribute("data-disabled")!=="true"; }); const awaiting=items.find(function(li){ return li.getAttribute("data-state")==="awaiting-return"; }); if(awaiting){ if(_timer) return; fireVisibility(true); fireVisibility(false); } } const obs=new MutationObserver(function(muts){ muts.forEach(function(m){ if(m.type==="attributes"&&(m.attributeName==="data-state"||m.attributeName==="data-disabled")) checkState(); }); }); function startObs(){ document.querySelectorAll("li.action-item").forEach(function(li){ obs.observe(li\,{attributes:true\,attributeFilter:["data-state"\,"data-disabled"]}); }); } if(document.querySelector("li.action-item")){ startObs(); }else{ new MutationObserver(function(m\,o){ if(document.querySelector("li.action-item")){ o.disconnect(); startObs(); } }).observe(document.documentElement\,{childList:true\,subtree:true}); } })();'>)
+@@$ghide,domain=biofeita.com|tarviral.com|rodaemotor.com|visastepguide.com|shufflepost.com|koaladesign.com.br
+koaladesign.com.br,shufflepost.com,visastepguide.com,gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##div[role="dialog"], .not-prose, #unlock-notif, [id*="randomAds"]:others()
+koaladesign.com.br,shufflepost.com,visastepguide.com,gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(trusted-replace-argument, window.addEventListener, 0, json:"click", condition, scroll)
+koaladesign.com.br,shufflepost.com,visastepguide.com,gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='n = document.createElement("div"); n.className = "not-prose"; Object.assign(n.style\, { position: "fixed"\, top: "50%"\, left: "50%"\, transform: "translate(-50%\, -50%)"\, zIndex: "2147483647"\, background: "var(--card2)"\, border: "1px solid var(--line)"\, borderRadius: "32px"\, padding: "44px 34px 34px"\, color: "var(--fg)"\, fontSize: "20px"\, textAlign: "center"\, fontWeight: "bold"\, boxShadow: "0 4px 12px var(--veil)"\, maxWidth: "900px"\, width: "calc(100% - 68px)" }); n.innerText = "CLICK ANYWHERE TO UNLOCK STEPS"; document.body.appendChild(n); window.addEventListener("click"\, e => { window.dispatchEvent(new Event("scroll")); setTimeout(() => { document.querySelectorAll("iframe[data-reading-monitor-frame=\"true\"]").forEach(i => { const s = i.getAttribute("data-reading-monitor-step") || "content_1"; if (i.contentWindow) { i.contentWindow.postMessage({ type: "reading:interaction-gate"\, direction: "parent-to-iframe"\, event: "auto-unlocked"\, step: s\, source: "auto_timer"\, autoUnlockSeconds: 0 }\, "*"); setTimeout(() => { window.dispatchEvent(new MessageEvent("message"\, { data: { type: `${s}:external-gate-unlocked` }\, origin: location.origin\, source: i.contentWindow })); }\, 1000); } }); }\, 2000); });'>)
+mcorporation.com.br,biofeita.com,submais.com##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='let _hidden = false; Object.defineProperty(document\, "hidden"\, { get: () => _hidden\, configurable: true }); Object.defineProperty(document\, "visibilityState"\, { get: () => _hidden ? "hidden" : "visible"\, configurable: true }); document.addEventListener("click"\, e => { if (e.target.closest(".action-link")) { _hidden = true; document.dispatchEvent(new Event("visibilitychange")); _hidden = false; document.dispatchEvent(new Event("visibilitychange")); } });'>)
 tarviral.com,rodaemotor.com##+js(trusted-set-cookie, stp, 2, , none, dontOverwrite, 1)
 mcorporation.com.br,biofeita.com,submais.com##+js(set-session-storage-item, content_unlocked, 1)
 mcorporation.com.br,biofeita.com,submais.com##.action-link[href]:watch-attr(href):remove-attr(/href|target/)
 tarviral.com,rodaemotor.com##button[data-slot="button"].my-4, .fixed, .GoogleActiveViewInnerContainer:others()
 
-lovemodz.space##+js(nano-sib, iv, *, 0.002)
-lovemodz.space##[class^="sl-ad"]
+astrorede.com##.pub, .promo
+
+bitdown.site,lovemodz.space##+js(nano-sib, passou, *, 0.002)
+bitdown.site,lovemodz.space##+js(nano-stb, indo, *, 0.002)
+bitdown.site,lovemodz.space##[class^="sl-ad"]
+bitdown.site,lovemodz.space##+js(rpnt, script, /var\s+ESPERA\s*=\s*\d+;/, var ESPERA = 1;)
 
 !PROURL
 prourl.online##+js(rpnt, script, '/stepNum > \d+/i', true)
