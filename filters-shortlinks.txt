@@ -460,6 +460,10 @@ mcorporation.com.br,biofeita.com,submais.com##+js(set-session-storage-item, cont
 mcorporation.com.br,biofeita.com,submais.com##.action-link[href]:watch-attr(href):remove-attr(/href|target/)
 tarviral.com,rodaemotor.com##button[data-slot="button"].my-4, .fixed, .GoogleActiveViewInnerContainer:others()
 
+visastepguide.com##+js(aeld, DOMContentLoaded, run)
+visastepguide.com##+js(trusted-set, adsbygoogle, 'json:{ "loaded": true}')
+visastepguide.com##+js(set-constant, adsbygoogle.push, noopFunc)
+
 astrorede.com##.pub, .promo
 
 bitdown.site,lovemodz.space##+js(nano-sib, passou, *, 0.002)
