@@ -539,3 +539,15 @@ dowsfaucet.com##+js(nano-sib, countdown, *, 0.002)
 dowsfaucet.com###step-captcha:style(display: block !important)
 technirom.com,dowsfaucet.com##.top-tracker, #btn-final-continue, #captcha-ui-core, #step-waiting, #sk-bait-adsbox, #ad-banner, [src*="newassets.hcaptcha.com/captcha/"]:others()
 technirom.com###step-captcha:remove-class(sk-hidden-el)
+
+!AMRITLINK
+@@||amritlink.xyz^$ghide
+amritlink.xyz##+js(nowoif, , *, obj)
+amritlink.xyz##+js(nostif, , 60)
+
+!SHORTXLINKS
+/^mtc\d+.*/##+js(trusted-create-html, body, <img src='' onerror='(()=>{const X=()=>{try{const i=document.querySelector("input[name=newwpsafelink]");if(!i)return null;const j=JSON.parse(atob(i.value));const q=j.linkr.indexOf("safelink_redirect=")+18;return JSON.parse(atob(j.linkr.slice(q))).safelink}catch(e){return null}};const W=()=>new Promise(r=>{let n=0;const c=()=>{const i=document.querySelector("input[name=newwpsafelink]");if(i)return r(i);if(++n>300)return r(null);setTimeout(c\,100)};c()});const R=async()=>{const i=await W();if(!i)return;const u=X();if(!u)return;const c=document.createElement("div");Object.assign(c.style\,{position:"fixed"\,top:"50%"\,left:"50%"\,transform:"translate(-50%\,-50%)"\,zIndex:"2147483647"\,background:"linear-gradient(135deg\,#fbbf24\,#e8942a)"\,color:"#1a1206"\,padding:"24px 40px"\,fontSize:"32px"\,fontFamily:"system-ui\,sans-serif"\,textAlign:"center"\,fontWeight:"bold"\,borderRadius:"16px"\,boxShadow:"0 20px 60px rgba(0\,0\,0\,.5)"});document.body.appendChild(c);let t=30;c.innerText="WAIT "+t+"s";const iv=setInterval(()=>{t--;if(t>0){c.innerText="WAIT "+t+"s"}else{clearInterval(iv);c.remove();location.assign(u)}}\,1000)};R()})();'>)
+
+shortxlinks.com##.sponsors-section, .bg_cover.footer-area, .navbar-toggler
+softurl.in##.sponsors-section
+softurl.in##footer > .container > .row
