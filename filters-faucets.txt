@@ -19,19 +19,24 @@ bitcotasks.com#@#+js(nostif, alert)
 bitcotasks.com#@#+js(nostif, offsetWidth)
 bitcotasks.com#@#+js(no-fetch-if, bmcdn6)
 bitcotasks.com##+js(no-fetch-if, bmcdn6, length:11000, '{"type": "opaque"}')
+bitcotasks.com##+js(no-fetch-if, /googleads.g.doubleclick.net|ad_status.js|adservice.google.com, , '{"type": "opaque"}')
+bitcotasks.com##+js(no-fetch-if, adsbygoogle.js, length:25600, '{"type": "basic"}')
+bitcotasks.com##+js(no-fetch-if, gpt.js, length:30600, '{"type": "basic"}')
+bitcotasks.com##+js(trusted-create-html, body, <img src='' onerror='(() => {var o=window.fetch\,p=["https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"\,"https://securepubads.g.doubleclick.net/tag/js/gpt.js"\,"https://googleads.g.doubleclick.net/pagead/id"\,"https://static.doubleclick.net/instream/ad_status.js"\,"https://adservice.google.com/adsid/google/ui"]\,c="https://www.google.com/favicon.ico";function d(u){return/adsbygoogle\.js/.test(u)?{f:"adsbygoogle"\,x:0}:/gpt\.js/.test(u)?{f:"googletag"\,x:137}:/doubleclick\.net|adsid|googlesyndication\.com/.test(u)?{f:"adsbygoogle"\,x:0}:null}function e(u){return p.some(s=>u.indexOf(s.split("?")[0])!==-1)}function r(u){var res=new Response(""\,{status:200\,statusText:"OK"});try{Object.defineProperty(res\,"type"\,{configurable:!0\,get:()=>"opaque"})}catch(e){}try{Object.defineProperty(res\,"url"\,{configurable:!0\,get:()=>u})}catch(e){}return res}window.fetch=function(i\,n){var u=typeof i==="string"?i:(i&&i.url)||""\,m=(n&&n.mode)||"cors";if(m==="no-cors"&&(e(u)||u.indexOf(c)!==-1))return Promise.resolve(r(u));var dat=d(u)\,pr=o.apply(this\,arguments);if(!dat)return pr;return pr.then(res=>{try{return res.clone().text().then(t=>{if(t.indexOf(dat.f)!==-1&&dat.x===0)return res;var pre="/* "+dat.f+" "+dat.f+" */\n"\,body=pre+"x".repeat(Math.max(0\,t.length+dat.x-pre.length))\,nv=new Response(body\,{status:res.status\,statusText:res.statusText\,headers:{"Content-Type":"application/javascript"}});try{Object.defineProperty(nv\,"type"\,{configurable:!0\,get:()=>"basic"})}catch(e){}try{Object.defineProperty(nv\,"url"\,{configurable:!0\,get:()=>u})}catch(e){}return nv}).catch(()=>res)}catch(e){return res}})};})();'>)
 bitcotasks.com##+js(no-xhr-if, czilladx)
-bitcotasks.com##[class^="floating-banner"]
+bitcotasks.com##[class^="floating-banner"], #dl-banner-slot, [data-bitmedia-floating]
+bitcotasks.com##+js(rpnt, script, openCaptchaWhenVisible();, showCaptcha();)
 bitcotasks.com##+js(rpnt, script, timer > 2 && window_focus === true, false)
-bitcotasks.com##+js(rpnt, script, /myWindow\s*=\s*window\.open\([^)]+\);/, myWindow = true;, condition, myWindow)
-bitcotasks.com##+js(rpnt, script, /window\.location\.replace\(['"][^'"]+['"]\)/, window.close();) 
+bitcotasks.com##+js(rpnt, script, document.visibilityState === 'visible' && document.hasFocus();, false;)
+bitcotasks.com##+js(rpnt, script, /win\s*=\s*window\.open\(iframeUrl\, AD_NAME\);/, win = true;, condition, win)
+bitcotasks.com##+js(rpnt, script, /window\.location\.replace\(\s*(?:['"][^'"]*['"]|[A-Za-z_$][\w$.]*)\s*\)/, window.close();) 
 bitcotasks.com##+js(nano-sib, /showContinueButton|clickMessage/, 1000, 0.10)
 bitcotasks.com##:matches-path(/offerwall) #BitcoAdContainer, #sponsored-bar, [id][style*="z-index:9999999"]
 bitcotasks.com##:matches-path(/shortlink) #BitcoAdContainer
-bitcotasks.com##:matches-path(/lead) .surfbar, #validateVisit, [id^=aab_ad]:others()
-bitcotasks.com,ad-doge.com##:matches-path(/blog) :is(#cf-turnstile-container), #scrollMessage, #progressBarContainer, #contbutt, [id^=aab_ad]:others()
+bitcotasks.com##:matches-path(/lead) .surfbar, #validateVisit, [id^=aab_], .panel:others()
+bitcotasks.com,ad-doge.com##:matches-path(/blog) :is(#cf-turnstile-container), #scrollMessage, #progressBarContainer, #contbutt, [id^=aab_]:others()
 bitcotasks.com,ad-doge.com##+js(rpnt, script, document.hasFocus(), true, condition, progressBar)
-bitcotasks.com##:matches-path(/post) .faucet-card, #clickMessage, .banner, [src*="newassets.hcaptcha.com/captcha/"], .swal2-container, [id^=aab_ad]:others()
-bitcotasks.com##+js(no-fetch-if, /adsbygoogle.js|gpt.js/, length:200000)
+bitcotasks.com##:matches-path(/post) .faucet-card, #clickMessage, .banner, [src*="newassets.hcaptcha.com/captcha/"], .swal2-container, [id^=aab_]:others()
 
 !VIEFAUCET
 viefaucet.com##.el-col:not(:has(> .claim-faucet, .wait-container)):has(> .ads > iframe)
