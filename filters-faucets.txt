@@ -30,7 +30,7 @@ bitcotasks.com##+js(rpnt, script, timer > 2 && window_focus === true, false)
 bitcotasks.com##+js(rpnt, script, document.visibilityState === 'visible' && document.hasFocus();, false;)
 bitcotasks.com##+js(rpnt, script, /win\s*=\s*window\.open\(iframeUrl\, AD_NAME\);/, win = true;, condition, win)
 bitcotasks.com##+js(rpnt, script, /window\.location\.replace\(\s*(?:['"][^'"]*['"]|[A-Za-z_$][\w$.]*)\s*\)/, window.close();) 
-bitcotasks.com##+js(nano-sib, /showContinueButton|clickMessage/, 1000, 0.10)
+bitcotasks.com##+js(nano-sib, /showContinueButton|clickMessage/, 1000, 0.50)
 bitcotasks.com##:matches-path(/offerwall) #BitcoAdContainer, #sponsored-bar, [id][style*="z-index:9999999"]
 bitcotasks.com##:matches-path(/shortlink) #BitcoAdContainer
 bitcotasks.com##:matches-path(/lead) .surfbar, #validateVisit, [id^=aab_], .panel:others()
